@@ -1,0 +1,33 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t4-6 dct:description "The objective of this use case is to demonstrate the applicability of the GeoKnow Generator for advanced spatiotemporal analysis of data and statistics collected by two relevant institutions ‐ the National Statistical Office and the Business Registers Agency of Serbia. Data (aggregated, interlinked with public datasets and fused) will appear at different levels of granularity, thus, imposing challenges for data processing, presentation and exploration. In order to achieve standard representation of data, special quality assessment services will be developed for vocabularies such as Core Business (http://www.w3.org/ns/legal#), Core Location (http://www.w3.org/ns/locn#) and the RDF Data Cube vocabulary (http://www.w3.org/TR/vocab‐data‐cube/). For business users interested in spatial analysis of different statistical indicators, an advanced GUI will be developed that will allow drill‐down style online access to highly granular data. The whole geospatial information life cycle in the resulting GeoKnow Prototype for Exploratory Spatiotemporal Analysis will be tested with data that is to be provided by the Serbian Business Registers Agency (http://www.apr.gov.rs), and different statistical indicators published by the Serbian Statistical Office at the Serbian CKAN (http://rs.ckan.net). The Serbian Business Registers Agency is an indispensable primary source of official public and other information on business entities in Serbia (50.000+ website visitors a day, 1M+ a month). A letter of commitment is provided. The Statistical Office of Serbia is special professional organization in the system of state administration of the Republic of Serbia that performs a wide range of expert tasks stipulated by the law. A letter of commitment will be also provided.The business requirement for the 'GeoKnow Generator for advanced spatiotemporal analysis of data and statistics' will be summarized in the Deliverable 4.6.1, while the evaluation results will be documented in the Deliverable 4.6.2."^^sysont:Markdown ;
+         dct:identifier "T4.6" ;
+         ns2:leadPartner ns5:Institute_Mihajlo_Pupin ;
+         ns2:partner ns5:Institute_Mihajlo_Pupin ;
+         ns2:previous ns4:t4-5 ;
+         ns2:taskNumber "6"^^xsd:integer ;
+         ns2:workpackage ns4:wp4 ;
+         a ns2:Task ;
+         rdfs:label "GeoKnow Prototype for Exploratory Spatiotemporal Analysis" .

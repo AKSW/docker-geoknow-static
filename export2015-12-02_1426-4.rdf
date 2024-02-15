@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t6-3"
+    dct:identifier="T6.3">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">This task will focus on the aggregation and transformation of integrated linked geospatial data into search-optimized data structures such as optimized index structures. These data structures can then be used by applications to run enhanced queries focussing on topics and customer motives on the integrated GKS data. Motive and topic based search is a new search paradigm, combining elements of information retrieval and questions answering. Such searches are particularly important in the e-Commerce domain, where customers search for parameters of products and services. An example of a motive and topic based search is “winter holiday with culture and mountains”, which could return travel options offering hiking as well as cultural highlights during the winter school holidays in the region of the searcher. Such searches require substantial (spatial) background knowledge as it can be only provided by the Web of Data.
+The current state of the art is focused on querying data statically. Only by using the Linked Data paradigm it is possible to derive data from the Data graph dynamically. However, this approach would cause a large effort if the data is not organized well (state explosion during derivation). Therefore, the research task is located on the research area where ontology-based question answering overlaps with heuristic-based derivation as well as statistic-based IR.</dct:description>
+    <ns2:next rdf:resource="t6-4" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Motive and topic-based Search Infrastructure and UI interfaces</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d6-3-1"
+    dct:identifier="D6.3.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">18</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t6-3" />
+    <rdfs:label xml:lang="en">Design and Specification of the Motive-Based Search Infrastructure</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D6.3.1_Design_Motive-Based_Search_Infrastructure.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d6-3-2"
+    dct:identifier="D6.3.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">24</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;CO" />
+    <ns2:task rdf:resource="t6-3" />
+    <rdfs:label xml:lang="en">First Prototype of the Motive-Based Search Infrastructure</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Confidential/D6.3.2_First_Prototype_Motive_based_Search.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d6-3-3"
+    dct:identifier="D6.3.3">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">3</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">33</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;CO" />
+    <ns2:task rdf:resource="t6-3" />
+    <rdfs:label xml:lang="en">Final Prototype of the Motive-Based Search Infrastructure</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Confidential/D6.3.3_Final_Prototype_Motive_based_Search.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d6-3-4"
+    dct:identifier="D6.3.4">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">4</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t6-3" />
+    <rdfs:label xml:lang="en">Refinement of Motive-Based Search Demonstrator and UI Interfaces</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D6.3.4_Refinement_Motive_based_Search.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t6-2"
+    dct:identifier="T6.2">
+    <dct:description xml:lang="en">In this task, we will design integrative components based on the results and algorithms of WP2 and WP3. Therefore, a component model will be realised that adapts solutions from the mentioned work packages to the travel use case. Fusing and interlinking components will use the transformed tourism data from Task 6 and integrate it with geospatial open linked data. In parallel, we will develop user-friendly and simple UI components for business intelligence interfaces as well as reporting views to visualize analysis results. This subtask builds on WP4 and adapts metaphors and concepts developed in that WP. Concretely, the usability and potential benefit for users provided by the integration of the map visualization of points-of-interests in conjunction with the widget for facet selection will be evaluated. Lightweight widgets that visualize data snippets, such as styled fact boxes about touristic locations are also in the scope of this task.</dct:description>
+    <ns2:next rdf:resource="t6-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Design integration methods and develop prototype to utilize RTD results</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t6-4"
+    dct:identifier="T6.4">
+    <dct:description xml:lang="en">In Task 6.4, we will define and conduct a use case scenario based on testing procedures to validate motive-centered queries. We will setup concrete test cases based on example intelligence queries based on the scenario. After execution of these test cases, we evaluate the respective test results by means of quality and quantity measures to check the correctness, completeness and performance of the developed prototype. Additionally, we will conduct usability tests for the developed search concepts described in deliverable D6.3.2. The tests will be integrated in the current web portal environment, in particular ab-in-den-urlaub.de (smaller German use case) and later on travel24.com (larger international use case). The test users are common customers. They should have already indicated (by the origin Google search or after giving textual input) that they would benefit from motive-based search in the field of application limited by the current features of the prototype. Using A/B testing this user segment will get answers to their queries by the current implementation or by the new search process. About 2-3% of the users will be used for this bucket test. The aim of those tests will be to evaluate whether Unister can benefit from motive based search and spatial data integration. The following metrics will be applied: conversion rate, transaction volume, time to PoS, etc. It is assumed that 1.000 customers per test will lead to a profound result.</dct:description>
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Evaluation and testing of the search prototype</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

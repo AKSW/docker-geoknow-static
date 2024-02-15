@@ -1,0 +1,36 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:InfAI ns7:country <http://dbpedia.org/resourceGermany> ;
+          ns8:abbreviation "InfAI" ;
+          dct:abstract "Scientific project coordination; develop spatial knowledge structuring and enrichment technologies as well as exploration, visualization and authoring interfaces; collaborate with OSM in order to integrate GeoKnow results into OSM services." ;
+          dct:description """Universität Leipzig is one of the oldest (founded 1409) and largest (30.000 students) universities in Germany and focuses on interdisciplinary research in the life sciences, cognitive sciences and linguistics as well as mathematics and computer science. The Institute for Applied Computer Science (InfAI, http://infai.org) at Universität Leipzig hosts world class research groups in service sciences, knowledge engineering and management as well as web science. The approximately 20 researchers of the knowledge engineering research group (online at: http://aksw.org) at InfAI are establishing theoretical results and scalable implementations for the field. Particular emphasis is given to areas such as ontology creation and manipulation, knowledge extraction, ontology learning and information & data integration on the Semantic Data Web.
+The scientific publications of the group founded in 2006 attracted already more than 2000 citations. The implemented tools and services developed by the group enjoy considerable popularity, the open-source semantic web framework OntoWiki for example is downloaded more than 500 times each month and applied in usage scenarios ranging from the authoring of bio-medical ontologies to knowledge management for the enterprise.
+
+InfAI is leading several large-scale collaborative research projects on the national and EU levels such as the integrated project “LOD2 – Creating Knowledge out of Linked Data” (FP7-ICT), OntoWiki (FP7-SME), EFIE (German BmBF) and SCMS (Eureka). InfAI as a research partner can help to build the bridge between research and deployment in the use cases as done by Unister, BROX and Ontos."""^^sysont:Markdown ;
+          dct:identifier "InfAI" ;
+          a ns2:Partner, foaf:Organization ;
+          rdfs:label "University of Leipzig, Institute of Applied Computer Science"@en ;
+          foaf:homepage <http://infai.org> ;
+          foaf:logo <http://www.geoknow.eu/site/images/logo-infai.png> .

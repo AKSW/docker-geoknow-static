@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t7-1"
+    dct:identifier="T7.1">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">The first focus of WP7 is the dissemination of the project results supported by community building and cross-fertilisation activities.
+Both the industrial and the academic partners will play active roles in dissemination. For the use case partners, the case studies will form a key part of the dissemination activity. For the academic partners, consultancy to business and contractual research and development will be a significant part of dissemination, besides the normal channels of publications, conference papers, workshop organisation, and educational courses at university sites.
+The dissemination programme foresees a multi-channel dissemination approach. First, the project outcomes will be disseminated by use of publicly available channels – such as workshop, conference, magazine, and journal publications. These will be aimed at sharing the results of the project with the scientific community, particularly the European, but also the international scientific community, to encourage their incorporation into the work of other scientists and technologists. Complementing this, there will be a programme of papers and articles in IT, Web Technologies and general business publications, and presentations at geo data, library, IT and business expos and conferences (e.g. LinkedDataPlanet, KM Europe, Dublin Core Metadata Initiative (DCMI), Digital Curation Conference, CeBIT or Systems for telecommunication and IT) particularly targeted at the European Union and associated countries. We envisage that the innovative technology required for building spatial Linked Data applications, and the resulting open GeoKnow Generator, will be of great interest to both SMEs and large businesses alike.
+We will put a special focus on demonstration activities in different forms of the possibilities that the newly developed technologies will offer. Target audience will be relevant industry and research actors whose main focus is the development of data and knowledge management systems, new scalable collaboration paradigms and their combination with information retrieval. The participation of globally acting partners (Ontos, OpenLink, BROX) will provide an additional, global dimension to our dissemination programme, in particular with Unister and Openlink as a globally acting E-Commerce and software vendor with offices in the US, and major European countries. Taking advantage of its worldwide unique information infrastructure, with products for enterprise information management, Unister can provide current research and technological solutions developed by the GeoKnow partners an ideal environment for demonstrating their real added value. The GeoKnow consortium will organize two end-user and industry days, one for each of the two case study applications corporate spatial business intelligence and e-science.
+The project will set up and maintain an external Web site, which will function as a project dissemination tool, as a training portal and as a server demonstrating some of the project results. The Web site will itself be based on a Semantic Wiki system, so that project participants and interested users can register and be notified when new deliverables or software become available. Within the limitations imposed by appropriate protection of intellectual property, all major scientific results of this project will be made available to the research community, whilst the GeoKnow and components will be published as open source to facilitate take-up. Outcomes will be made available in a non-proprietary format. All open source components published will be extensively documented by means of textual documents and screencasts of professional quality illustrating how to download, install and operate the components in question. Documentation manuals and screencasts will be specifically identified as project deliverables and prominently published on the project&apos;s web site. The project will exploit modern, social-networking dissemination channels such as Weblogs, Newsfeeds (RSS), organize GeoKnow groups in social networks such as LinkedIn, XING, Facebook, Twine. The project will register its web site under the .eu domain for at least 2 years after the natural contractual end of the project and commit to keeping the web site alive for that period of time. It will link to other relevant EC and EC sponsored sites. 
+The project will also deliver one or more web-based showcases and grant the EC the right to use the showcase(s) for its own dissemination and awareness activities. After the completion of the project. The Showcase(s) will feature a meaningful subset (software, data, etc.) of the functionality characterising the project demonstrator(s) arrived at, along with relevant copyright notices and contact information, and suitable installation aids and run-time interfaces.
+GeoKnow will create a Researcher Early Access Group that will be open to participation to scientists working in related fields. Members of this group will get early access to project infrastructure and will be invited to experiment with GeoKnow components. This will both verify the generality of the plug-in interfaces and encourage take-up of the project results. The scientific communities that will be targeted by our inter-disciplinary community building efforts are very diverse and hitherto largely independent of each other: Geodata Management, Semantic Web and knowledge technologies, machine learning, e-science, and Big Data Management. 
+In the first month of the project, the GeoKnow consortium will create a fact sheet suitable for Web publishing. The Fact Sheet will outline the project&apos;s rationale and objectives, specify its technical baseline and intended target groups and application domains, and detail intermediate and final outputs. The facts-sheet will be maintained and updated until the end of the project; this will be documented in the regular dissemination reports. It will be published on the website and related EC sponsored websites controlled by the consortium. Related to the fact sheet, the consortium will issue press releases within one month of the start of the project (prepared by InfAI and Ontos, translation and dissemination by all partners). The press releases will target the local or national press of all partners. The press release will describe the goals of the project in simple, jargon free language and whenever possible highlight the benefits to the region/country and the importance of the local partner being part of a EU consortium. A PDF version of the collection of such press releases will be listed as part of Deliverable D7.1.1. 
+If suitable, the consortium may commit to radio and TV appearances. If this is feasible audio/video clips will also be submitted as additional deliverables.
+Additionally, we plan to promote cross-fertilisation through inter-disciplinary workshops, organized alongside major conferences in the respective research fields. The GeoKnow partners representing each of these diverse research areas will be responsible to promote the project results within the respective communities. The project partners undertake – when invited – to contribute to and participate in focused concertation actions, themed seminars or special interest groups.</dct:description>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="t7-2" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="&ns5;Institute_Mihajlo_Pupin" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Dissemination, community building and cross-fertilisation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d7-1-1"
+    dct:identifier="D7.1.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">1</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">Project Fact Sheet and Press Release</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.1_Project_Fact_Sheet_and_Press_Release.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-2"
+    dct:identifier="D7.1.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">3</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">Project Website</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.2_Project_website.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-3"
+    dct:identifier="D7.1.3">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">3</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">12</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">First dissemination report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.3_First_dissemination_report.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-4"
+    dct:identifier="D7.1.4">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">4</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">24</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">Second Dissemination Report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.4_Second_Dissemination_Report.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-5"
+    dct:identifier="D7.1.5">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">5</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">32</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">GeoKnow Show Case</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.5%20GeoKnow%20Show%20Case.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-6"
+    dct:identifier="D7.1.6">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">6</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">Third Dissemination Report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.6%20Third%20dissemination%20report.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-7"
+    dct:identifier="D7.1.7">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">7</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label xml:lang="en">Final Report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.7_Final_Report.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-1-8"
+    dct:identifier="D7.1.8">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">8</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-1" />
+    <rdfs:label>Report on Dissemination Activities in Serbia</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.1.8_Dissemination_activities_in_Serbia.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t7-2"
+    dct:identifier="T7.2">
+    <dct:description xml:lang="en">The two case studies and the industrial and end-user community partners will drive the exploitation. Their task is to extend the research activities by promoting and supporting the exploitation of the results along with take-up activities related to the perspective applications. The majority of the project results will be made available as open source and the open source exploitation strategy will describe how to leverage the potential of such an open source initiative.
+The pillars of GeoKnow exploitation strategy are: tracking important technical and commercial developments in geo data management, semantic web, Web 2.0 as well as geospatial e-science and enterprise applications; analyzing the market sector(s) where the results can be applied and possibly licensed commercially; identifying the results of GeoKnow that are exploitable: particularly the GeoKnow Generator, some of the components and the innovative applications developed within the use cases; and identifying the appropriate distribution channels (including open source community) to exploit the different results of the project.
+The major outcome of this work package will be the GeoKnow Exploitation Plan, which will include a list of opportunities that arise from GeoKnow scientific and technical achievements and a detailed analysis of benefit and impact for the GeoKnow consortium as a whole as well as for the results of individual participants. The prestige of both the industrial partners and the use case partners makes the GeoKnow Consortium an international partnership.</dct:description>
+    <ns2:leadPartner rdf:resource="Unister" />
+    <ns2:next rdf:resource="t7-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t7-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Exploitation</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

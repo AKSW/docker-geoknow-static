@@ -1,0 +1,40 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t1-3 dct:description """A benchmarking strategy will be developed and the platforms performance will be evaluated, based on well-established benchmarks, such as the Sequoia 2000 and Paradise benchmark3. In particular, the benchmark will be based on OSM and Natural Earth datasets, complemented by synthetic social data from the LOD2 Social Intelligence Benchmark. Further, to perform benchmarking tests that can deal with very large datasets, we will develop a suitable infrastructure by (1) evaluating existing high-performant and compact GIS storage formats for adoption of best practices (e.g. Oracle Spatial, PostGIS), (2) developing a suitable process for extract-transform-load of geo data, including coordinate transforms and schema mapping (e.g. GDAL/OGR, GeoKettle). This is in itself a matter of benchmarking but also enables running benchmarks targeting diverse geospatial workloads such as localized, potentially high frequency accesses for route planning and querying; as well as aggregation queries that span large portions of the map and join with thematic data.
+
+The Sequoia workload is an initial checklist item for validating functionality and relative performance as opposed to existing GIS. Geoknow will move beyond the state of the art by using and further refining the geospatial benchmark built in LOD2, emulating heavy drill-down style online access patterns and accessing large volumes of thematic data. An example of this is zooming on a map shaded according to population density or real estate prices. Beyond this, benchmarking will look at more complex analytics such as deciding locations of services based on population distribution, competitive services, road network capacity and the like. The last category is not expressible as a query but requires database resident application logic.
+
+Further, to compare GKS and its components with other state of the art systems, we will use the SEALS project benchmarking services. This will provide us with an objective evaluation of the GKS and its components.
+
+Benchmarks will be done early, so as to provide constant tracking of performance.
+Virtuoso's relational GIS functionality will be compared to PostGIS using the full scale OSM data and typical OSM queries and updates. Further, an RDF version of this will be run on Virtuoso and its performance will be compared to the performance attained with OSM in relational form on Virtuoso."""@en ;
+         dct:identifier "T1.3" ;
+         ns2:next ns4:t1-4 ;
+         ns2:partner ns4:ATH, ns4:OpenLink ;
+         ns2:previous ns4:t1-2 ;
+         ns2:taskNumber "3"^^xsd:integer ;
+         ns2:workpackage ns4:wp1 ;
+         a ns2:Task ;
+         rdfs:label "Performance Benchmarking and Evaluation"@en .

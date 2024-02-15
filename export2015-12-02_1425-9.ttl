@@ -1,0 +1,38 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t4-5 dct:description """The goal of this task is to develop a mobile version of the spatial‐semantic visualization and exploration component described in Task 4.1, with an additional authoring component that will allow for online updates of geospatial and related information by a user on the move. The tool will give the user the ability to load the application with a custom dataset through one of the available SPARQL endpoints and retrieve the data they might be interested in on request, instead of (over)loading the mobile map with irrelevant information from the start. The user interface will consist of:
+
+-  A slippy map component, used for quick and easy exploration of geographical areas, showing the user’s own position (GPS coordinates) and the surrounding area. The component will possibly be based on the extended OpenLayers map that is to be built in Task 4.1, but other mobile geospatial platforms will be considered as well.
+- A semantic facet filtering component and a result view, similar to the desktop/webbased components described in Task 4.1.
+- An authoring component, used for quick editing of existing information (e.g. fixing outdated information) and adding new information on the move. The tool will be available on at least one major mobile platform (Android, iOS, Windows Phone) in order to reach a larger target population and spark community engagement and contribution. As the resulting software solution will be used as a basis for Task 5.6, joint evaluation and testing activities for both components will be performed within Task 5.5 and reported on in Deliverable 5.5. The main reason for the allocation of persons months for InfAI in this task is to: a) transfer knowledge from Task 4.1 to this task (including support in the implementation phase) and b) combine IMP’s expertise with InfAI’s expertise to further improve the quality of achieved results."""^^sysont:Markdown ;
+         dct:identifier "T4.5" ;
+         ns2:leadPartner ns5:Institute_Mihajlo_Pupin ;
+         ns2:next ns4:t4-6 ;
+         ns2:partner ns4:InfAI, ns5:Institute_Mihajlo_Pupin ;
+         ns2:previous ns4:t4-5 ;
+         ns2:taskNumber "5"^^xsd:integer ;
+         ns2:workpackage ns4:wp4 ;
+         a ns2:Task ;
+         rdfs:label "Mobile spatial-semantic visualization, exploration and authoring" .

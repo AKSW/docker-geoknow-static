@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Project rdf:about="GeoKnow"
+    ns8:abbreviation="GeoKnow"
+    rdfs:label="GeoKnow">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns8:abstract xml:lang="en">The advent of the Data Web demonstrates how Web technologies can be employed to integrate dispersed, heterogeneous information. Most information - be it the extent of habitats of aquatic species, data warehouses of E-Commerce systems or offerings of the bakery shop next door - has a directly or indirectly associated spatial dimension. Integrating and efficiently using information with such a spatial dimension on the Web poses very particular challenges. 
+First, we have to combine and reason about spatial and semantic features that use different vocabularies and representation techniques. Second, the wealth of pre-existing overlapping and complementary information sources in the spatial domain demands information management able to deal with billions of facts in a scalable manner. Third, only by dramatically lowering the entrance barriers extra value can be generated through the involvement of thousands of non-expert end users in authoring, curation and assessment. Within GeoKnow, we will tackle these challenges and spur the transition from islands of isolated Geographic Information Systems (GIS) to a Web of interlinked Geographic Knowledge Systems (GKS).
+We will validate our approach in two complementary application scenarios: (1) spatial-semantic collaboration in biological scientific communities involving citizen scientists and (2) spatial-semantic travel E-Commerce data management.
+GeoKnow will substantially contribute to the evolution of the Web from a medium for information exchange to a medium for (spatial) knowledge integration, e.g. the number of spatial LOD sources will increase from 31to &gt;1,000. GeoKnow will help to realize network effects by increasing quality and coherence of the spatial Data Web, e.g. the data-linkage ratio will increase from 5% to 20%. For enterprises, the GeoKnow Generator will provide a cost-efficient way to integrate a variety of heterogeneous information sources within an Enterprise Data Intranet.</ns8:abstract>
+    <ns2:endDate rdf:datatype="&xsd;date">2015-12-31</ns2:endDate>
+    <ns2:fullname>GeoKnow - Making the Web an Exploratory for Geospatial Knowledge</ns2:fullname>
+    <ns2:grantAgreementNumber rdf:datatype="&xsd;integer">318159</ns2:grantAgreementNumber>
+    <ns2:istProjectnumber rdf:datatype="&xsd;integer">1234567890</ns2:istProjectnumber>
+    <ns2:objectives rdf:resource="http://purl.org/research-fp/homepage/objectives" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="&ns5;Institute_Mihajlo_Pupin" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:startDate rdf:datatype="&xsd;date">2012-12-01</ns2:startDate>
+    <rdf:type rdf:resource="&foaf;Project" />
+    <foaf:homepage rdf:resource="http://geoknow.eu" />
+  </ns2:Project>
+
+</rdf:RDF>

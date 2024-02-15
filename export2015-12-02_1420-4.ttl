@@ -1,0 +1,36 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:wp4 dct:description "The adaptive nature of the information structures in GKS is particularly challenging for the provisioning of easy-to-use, yet comprehensive user interfaces. In a GKS users are not constraint by a rigid data model, but can use any representation of information adhering to the RDF data model. This can include information represented according to heterogeneous, interconnected vocabularies defined and published on the Data Web, as well as newly defined attributes and classification structures. Hence, the GKS user interface components should support the reuse of existing vocabularies and ontologies as well as the Ad hoc definition of new ones and their refinement and evolution over time. Different information structures should be seamlessly combinable in a single visualisation or authoring environment, even if the information to be visualized or authored is obtained or stored in various GKS and other Linked Data sources. The objectives of the WP4 are to develop (1) new exploration, (2) visualisation and (3) authoring & curation interfaces for GKS, which support a wide range of devices (from mobile phones to desktop PCs), which integrate heterogeneous information from various sources and support the evolution of both instance data as well as information structures over time. In order to achieve these objectives we will explore new exploration and visualisation paradigms. For example, we will extend facetted browsing techniques such that the facetted browsing can be combined with the spatial dimension. Regarding visualisation, we will explore new map overlay techniques, which allow to layer and combine (possible aggregated) semantic information together with different map rendering approaches (e.g. for pedestrians, bi-cyclists, disabled and challenged persons).", "The adaptive nature of the information structures in GKS is particularly challenging for the provisioning of easy-to-use, yet comprehensive user interfaces. In a GKS users are not constraint by a rigid data model, but can use any representation of information adhering to the RDF data model. This can include information represented according to heterogeneous, interconnected vocabularies defined and published on the Data Web, as well as newly defined attributes and classification structures. Hence, the GKS user interface components should support the reuse of existing vocabularies and ontologies as well as the Ad hoc definition of new ones and their refinement and evolution over time. Different information structures should be seamlessly combinable in a single visualisation or authoring environment, even if the information to be visualized or authored is obtained or stored in various GKS and other Linked Data sources. The objectives of the WP4 are to develop (1) new exploration, (2) visualisation and (3) authoring & curation interfaces for GKS, which support a wide range of devices (from mobile phones to desktop PCs), which integrate heterogeneous information from various sources and support the evolution of both instance data as well as information structures over time. In order to achieve these objectives we will explore new exploration and visualisation paradigms. For example, we will extend facetted browsing techniques such that the facetted browsing can be combined with the spatial dimension. Regarding visualisation, we will explore new map overlay techniques, which allow to layer and combine (possible aggregated) semantic information together with different map rendering approaches (e.g. for pedestrians, bi-cyclists, disabled and challenged persons)."@en ;
+        dct:identifier "WP4" ;
+        ns2:activity ns2:RTD ;
+        ns2:endMonth "34"^^xsd:integer ;
+        ns2:leadPartner ns4:InfAI ;
+        ns2:next ns4:wp5 ;
+        ns2:personMonths "67.0"^^xsd:float ;
+        ns2:previous ns4:wp3 ;
+        ns2:startMonth "2"^^xsd:integer ;
+        ns2:workpackageNumber "4"^^xsd:integer ;
+        a ns2:WorkPackage ;
+        rdfs:label "Spatial-semantic exploration, visualization, analysis & authoring", "Spatial-semantic exploration, visualization, analysis & authoring"@en .

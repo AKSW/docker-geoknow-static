@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t3-1"
+    dct:identifier="T3.1">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">One goal of this task is to develop algorithms and services to map spatial (datasets with geometric information) and non-spatial RDF data. For example, often datasets only contain implicit geographic references, such as city names. However, this information alone is not sufficient for unambiguously identifying geographic entities.A further goal is therefore to provide a tool assisted way of providing context information and parameterizing transformations for the generation of high quality RDF datasets. The following components will be developed:
+a component to lift implicit geographical references in data sets. Given an RDF data set with implicit geographical references, the module will automatically detect potential types of geospatial information and the relations to existing vocabularies. For instance, a dataset containing address information could be automatically geocoded using a service such as Nominatim. The address information itself can be identified either by the used vocabulary or by crosschecking the used values against reference lists of e.g. country, city and street names. Additionally, this enables interlinking with spatial datasets, such as GeoNames, DBpedia or LinkedGeoData. The component will be manually evaluated (a) using information retrieval measures, such as precision and recall, and (b) by comparison with reference datasets. For large datasets, sampling methods will be applied. 
+a component to configure transformation of data in conventional formats into RDF using existing vocabularies. Based on the detected implicit information,the user will be able to specify the type, format, granularity and amount of data being transformed. 
+a distributed system for continuously processing a large amount of conventional data into an RDF representation based on the configuration. The challenge here is the expected amount of data to be processed. Since the original data sets remain unchanged and evolve over time it is required to be able to quickly re-process large amount of RDF data. This component will be evaluated for its performance, such as by measuring the process time for different datasets and dataset sizes.</dct:description>
+    <ns2:next rdf:resource="t3-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Spatial knowledge mapping</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d3-1-1"
+    dct:identifier="D3.1.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">9</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t3-1" />
+    <rdfs:label xml:lang="en">Development of first prototype for spatially interlinking data sets</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D3.1.1.Development_of_First_Prototype_for_Spatially.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d3-1-2"
+    dct:identifier="D3.1.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">21</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t3-1" />
+    <rdfs:label xml:lang="en">System to Integrate Large-Scale Data Sets Based on Implicit Spatial Relations</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/GeoKnow_D_3_1_2_final.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d3-1-3"
+    dct:identifier="D3.1.3">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">3</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">30</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t3-1" />
+    <rdfs:label xml:lang="en">Evaluation of Spatial Interlinking</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D3.1.3_Evaluation_of_spatial_interlinkingl.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t3-2"
+    dct:identifier="T3.2">
+    <dct:description xml:lang="en">A problem in the field of geospatial data management is the requirement to combine two or more geospatial data sets that have been derived from different sources. The same geographic feature can have a different RDF representations, different metadata and differing geometry associated with it. The goal of this task is to automate fusing based on semantic links in the maps. While in WP2 we are developing the infrastructure for fusing geospatial data sets, this task has the goal to develop the algorithms necessary for fusing different RDF representations of maps. Here, we will develop a module (1) to map different RDF representations of geometry; (2) to merge different metadata associated with spatial objects; (3) to combine different representations of relations between spatial objects.</dct:description>
+    <ns2:next rdf:resource="t3-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t3-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Spatial knowledge fusing</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

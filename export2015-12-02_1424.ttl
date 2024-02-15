@@ -1,0 +1,34 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t1-1 dct:description """The goal of task 1.1 is to collect end user requirements from the application areas, and to specify the use cases for GeoKnow. The end users involved in the project (Unister, BROX) will heavily contribute to this task, as well as all other project partners. Further, current user communities (both end users and technology users) of Schnellecke, OpenStreetMap and geodata.gov.gr will be involved. Combined, these platforms provide access to millions of users with diverse (a) expertise (e.g. researchers, students. SMEs, citizens), (b) thematic areas (e.g. natural sciences, transport, statistics), and technology needs (e.g. data consumers, web services integration).
+User requirements will be collected through a combination of appropriate instruments: (a) one-to one interviews with prominent users (10-15 users), (b) group meetings with expert users (10-15), (c) invitational online questionnaires for specific non-overlapping thematic areas and high technical expertise (30-60 users), (d) mass online questionnaires (100-200 users). The resulting requirements document for the GeoKnow Generator will be the basis for the subsequent RTD work. All tasks in WP2-WP4 that deal with requirement analysis and specification contribute to this joint activity. InfAI, OpenLink and Ontos will analyse and specify the technical requirements for metadata identification, access to spatial data, selection, construction of knowledge stores, and metadata transfer, that is, in tandem with the development and evaluation of the application-specific demonstrators developed in WP5-WP6, we will also define all necessary technical requirements related to the development under WP2-4.
+The requirements will be monitored throughout the lifetime of the project, and in case some additional requirements have to be satisfied, an update of the deliverable D1.1.1 shall be prepared."""@en ;
+         dct:identifier "T1.1" ;
+         ns2:next ns4:t1-2 ;
+         ns2:partner ns4:InfAI, ns4:Ontos, ns4:Unister, ns4:brox ;
+         ns2:taskNumber "1"^^xsd:integer ;
+         ns2:workpackage ns4:wp1 ;
+         a ns2:Task ;
+         rdfs:label "Common requirements specification"@en .

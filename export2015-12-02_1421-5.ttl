@@ -1,0 +1,35 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:Unister ns7:country <http://dbpedia.org/resourceGermany> ;
+            ns8:abbreviation "Unister" ;
+            dct:abstract "The Unister GmbH, short Unister, is a German e-commerce company with headquarters in Leipzig. The Unister Group operates and markets well-known Internet portals with a predominantly German-speaking, often generic domains." ;
+            dct:description """Unister has rapidly grown from a student's start-up to one of Europe's leading e-commerce providers. With more than 40 national and international internet-portals, and more than 10 million users per month39, Unister has a top position in the B2C market as well as in the advertisement market. Unister's internet solutions (web portals, web services, advertiser network) helping companies and customers to connect and perform transactions in different verticals. Well-known are the web-portals ab-in-den-urlaub.de (travel; leading position), fluege.de (flights; top position), hotelreservierung.de and hotelreservation.com (hotels), travel24.de and travel24.com (travel), auto.de (cars), news.de (news) or shopping.de (retail). The company employs over 1,500 people. EU and US markets are addresses by specific country managers. However, the creation of value is located within the EU. Unister employs over 1,500 people at more than 10 locations. EU and US markets are addresses by specific country managers. However, the creation of value is located within the EU.
+
+The Semantic Web Project is the technology research group of Unister and will also perform the research tasks considered in this proposal. As integral part of Unister's R&D activities, it is responsible for identifying, researching, understanding, developing and evaluating new and emerging technologies, processes and e-business solutions that strategically influence the future of Unister products. Most likely this targets the future of the internet, in particular the Semantic Web and the evolving Web 3.0."""^^sysont:Markdown ;
+            dct:identifier "Unister" ;
+            a ns2:Partner, foaf:Organization ;
+            rdfs:label "Unister GmbH"@en ;
+            foaf:homepage <http://www.unister.de> ;
+            foaf:logo <http://www.geoknow.eu/site/images/logo_unister.png> .

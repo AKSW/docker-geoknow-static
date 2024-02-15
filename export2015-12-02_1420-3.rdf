@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:WorkPackage rdf:about="wp3"
+    dct:identifier="WP3">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">Missing explicit quality indicators and links between publicly available data sets as well as the heterogeneity in granularity, origin and actuality of different data sets for similar geographic regions pose research challenges that will be tackled in this work package. Thus, we target the following objectives: (1) We develop self-configuring algorithms to interlink data sets with spatial dimensions. The results are new connections between previously not directly connected data sets sharing a set of commonly referred spatial objects. (2) We elaborate algorithms to fuse existing spatial RDF data sets. The result will be derived datasets with consistent representations of geometry and meta data of spatial objects. (3) We develop metrics to compare different maps and different regions of a map for their coverage of objects, density, divergence of geometry, pertinence of categories and topicality of meta data. (4) We elaborate methods and algorithms to aggregate consolidated information from volunteered geospatial data.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">34</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Athena" />
+    <ns2:next rdf:resource="wp4" />
+    <ns2:personMonths rdf:datatype="&xsd;float">73.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp2" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">2</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">3</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">Spatial knowledge aggregation, fusing &amp; quality assessment</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:Task rdf:about="t3-1"
+    dct:identifier="T3.1">
+    <dct:description xml:lang="en">One goal of this task is to develop algorithms and services to map spatial (datasets with geometric information) and non-spatial RDF data. For example, often datasets only contain implicit geographic references, such as city names. However, this information alone is not sufficient for unambiguously identifying geographic entities.A further goal is therefore to provide a tool assisted way of providing context information and parameterizing transformations for the generation of high quality RDF datasets. The following components will be developed:
+a component to lift implicit geographical references in data sets. Given an RDF data set with implicit geographical references, the module will automatically detect potential types of geospatial information and the relations to existing vocabularies. For instance, a dataset containing address information could be automatically geocoded using a service such as Nominatim. The address information itself can be identified either by the used vocabulary or by crosschecking the used values against reference lists of e.g. country, city and street names. Additionally, this enables interlinking with spatial datasets, such as GeoNames, DBpedia or LinkedGeoData. The component will be manually evaluated (a) using information retrieval measures, such as precision and recall, and (b) by comparison with reference datasets. For large datasets, sampling methods will be applied. 
+a component to configure transformation of data in conventional formats into RDF using existing vocabularies. Based on the detected implicit information,the user will be able to specify the type, format, granularity and amount of data being transformed. 
+a distributed system for continuously processing a large amount of conventional data into an RDF representation based on the configuration. The challenge here is the expected amount of data to be processed. Since the original data sets remain unchanged and evolve over time it is required to be able to quickly re-process large amount of RDF data. This component will be evaluated for its performance, such as by measuring the process time for different datasets and dataset sizes.</dct:description>
+    <ns2:next rdf:resource="t3-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Spatial knowledge mapping</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t3-2"
+    dct:identifier="T3.2">
+    <dct:description xml:lang="en">A problem in the field of geospatial data management is the requirement to combine two or more geospatial data sets that have been derived from different sources. The same geographic feature can have a different RDF representations, different metadata and differing geometry associated with it. The goal of this task is to automate fusing based on semantic links in the maps. While in WP2 we are developing the infrastructure for fusing geospatial data sets, this task has the goal to develop the algorithms necessary for fusing different RDF representations of maps. Here, we will develop a module (1) to map different RDF representations of geometry; (2) to merge different metadata associated with spatial objects; (3) to combine different representations of relations between spatial objects.</dct:description>
+    <ns2:next rdf:resource="t3-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t3-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Spatial knowledge fusing</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t3-3"
+    dct:identifier="T3.3">
+    <dct:description xml:lang="en">Community efforts live from the enthusiasm of volunteers. Too strict regulations of the type of content contributed to the effort would be counterproductive. While it helps new contributors to guide with suggestions for categories to be instantiated on a map more experienced users will want to add new categories at their wish. 
+In this task we aim at consolidating the type of information entered in volunteered geographic knowledge bases not by restricting the set of categories but rather:
+develop algorithms semantically consolidating the meaning of categories. We aim at developing algorithms automatically mapping newly added categories to existing categories. The user has then the choice to reuse an existing definition of a well described and frequently used category or begin to define a new category. Newly added categories will be grouped with other categories into higher types of categories.
+investigate in a community driven consolidation process. Since we are aware that an algorithmic approach will not solve the problem entirely, the goal is to develop means to define aggregated categories and allow the community to agree on them.</dct:description>
+    <ns2:next rdf:resource="t3-4" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t3-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Quality aware spatial knowledge aggregation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t3-4"
+    dct:identifier="T3.4">
+    <dct:description xml:lang="en">Community provided information can surpass the level of detail found in official and commercial maps. The first regions where community maps will show a higher level of detail might be countries for which official maps were the base data which was later refined by the community. In this task, we will develop metrics for volunteered geospatial information. The goal is to compare different maps and different regions of a map represented in the RDF data model. In particular we aim at developing metrics for the
+coverage of a category in a region, e.g. the percentage of buildings contained in a part of the map,
+precision of geometry and meta data, e.g. measuring the deviation of spatial objects from those in a reference dataset.
+pertinence of geographic information, e.g. by comparing the number of occurrences of categories between regions of the same or different datasets. For example, this could be used for tracking the importance of nodes in a supply chain, by keeping track of the amount of goods that pass through them.
+timeliness of data, e.g. measure how recent the covered information is.</dct:description>
+    <ns2:next rdf:resource="t3-5" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t3-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Metrics for Volunteered Geographic Information</rdfs:label>
+  </ns2:Task>
+
+  <ns2:WorkPackage rdf:about="wp2"
+    dct:identifier="WP2">
+    <ns9:abstract xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <dct:description rdf:datatype="&sysont;Markdown">The main objectives covered in this workpackage are: 
+
+* _Adaptive data organization_: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+* _Integration of complex geospatial algorithms into the database kernel_: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+* _GeoSPARQL standard compliance_: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+* _Data modelling with possible engine-level support for provenance or versioning_: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata. 
+
+Along with these objectives we will ensure fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">35</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="wp3" />
+    <ns2:personMonths rdf:datatype="&xsd;float">59.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp1" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">2</ns2:workpackageNumber>
+    <rdfs:label>Semantics based geospatial data management</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:WorkPackage rdf:about="wp4"
+    dct:identifier="WP4">
+    <dct:description>The adaptive nature of the information structures in GKS is particularly challenging for the provisioning of easy-to-use, yet comprehensive user interfaces. In a GKS users are not constraint by a rigid data model, but can use any representation of information adhering to the RDF data model. This can include information represented according to heterogeneous, interconnected vocabularies defined and published on the Data Web, as well as newly defined attributes and classification structures. Hence, the GKS user interface components should support the reuse of existing vocabularies and ontologies as well as the Ad hoc definition of new ones and their refinement and evolution over time. Different information structures should be seamlessly combinable in a single visualisation or authoring environment, even if the information to be visualized or authored is obtained or stored in various GKS and other Linked Data sources. The objectives of the WP4 are to develop (1) new exploration, (2) visualisation and (3) authoring &amp; curation interfaces for GKS, which support a wide range of devices (from mobile phones to desktop PCs), which integrate heterogeneous information from various sources and support the evolution of both instance data as well as information structures over time. In order to achieve these objectives we will explore new exploration and visualisation paradigms. For example, we will extend facetted browsing techniques such that the facetted browsing can be combined with the spatial dimension. Regarding visualisation, we will explore new map overlay techniques, which allow to layer and combine (possible aggregated) semantic information together with different map rendering approaches (e.g. for pedestrians, bi-cyclists, disabled and challenged persons).</dct:description>
+    <dct:description xml:lang="en">The adaptive nature of the information structures in GKS is particularly challenging for the provisioning of easy-to-use, yet comprehensive user interfaces. In a GKS users are not constraint by a rigid data model, but can use any representation of information adhering to the RDF data model. This can include information represented according to heterogeneous, interconnected vocabularies defined and published on the Data Web, as well as newly defined attributes and classification structures. Hence, the GKS user interface components should support the reuse of existing vocabularies and ontologies as well as the Ad hoc definition of new ones and their refinement and evolution over time. Different information structures should be seamlessly combinable in a single visualisation or authoring environment, even if the information to be visualized or authored is obtained or stored in various GKS and other Linked Data sources. The objectives of the WP4 are to develop (1) new exploration, (2) visualisation and (3) authoring &amp; curation interfaces for GKS, which support a wide range of devices (from mobile phones to desktop PCs), which integrate heterogeneous information from various sources and support the evolution of both instance data as well as information structures over time. In order to achieve these objectives we will explore new exploration and visualisation paradigms. For example, we will extend facetted browsing techniques such that the facetted browsing can be combined with the spatial dimension. Regarding visualisation, we will explore new map overlay techniques, which allow to layer and combine (possible aggregated) semantic information together with different map rendering approaches (e.g. for pedestrians, bi-cyclists, disabled and challenged persons).</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">34</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:next rdf:resource="wp5" />
+    <ns2:personMonths rdf:datatype="&xsd;float">67.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp3" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">2</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">4</ns2:workpackageNumber>
+    <rdfs:label>Spatial-semantic exploration, visualization, analysis &amp; authoring</rdfs:label>
+    <rdfs:label xml:lang="en">Spatial-semantic exploration, visualization, analysis &amp; authoring</rdfs:label>
+  </ns2:WorkPackage>
+
+</rdf:RDF>

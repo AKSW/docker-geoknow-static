@@ -1,0 +1,33 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t2-7 dct:description """This task will provide technical solutions and tools to expose INSPIRE data and metadata as geospatial Linked Data. Our work will focus on providing automatic and semi-automatic tools to repurpose/reuse geospatial information from INSPIRE SDIs, which consists of: (a) exposing catalogue services through SPARQL endpoints, (b) on-the-fly and custom transformations of INSPIRE metadata as VoiD (vocabulary of Interlinked Documents) with support for standard vocabularies (e.g. GEMET), (c) on-the-fly and custom transformations of geospatial data sets as geospatial RDF, based on standard (e.g. INSPIRE Data Specifications), or custom data schemas.
+On a practical level, our contributions will be based on a stack of open source tools and technologies for SDIs (focusing on OSGeo projects), to promote uptake and provide real world opportunities for exploitation (e.g. degree server, GeoNetwork). Further, we will focus on a real world SDI providing INSPIRE compatible data for Greece (geodata.gov.gr)."""^^sysont:Markdown ;
+         dct:identifier "T2.7" ;
+         ns2:leadPartner ns4:ATH ;
+         ns2:previous ns4:t2-6 ;
+         ns2:taskNumber "7"^^xsd:integer ;
+         ns2:workpackage ns4:wp2 ;
+         a ns2:Task ;
+         rdfs:label "Exposing INSPIRE data as Linked Data" .

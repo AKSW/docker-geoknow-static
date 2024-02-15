@@ -1,0 +1,36 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t7-2 dct:description """The two case studies and the industrial and end-user community partners will drive the exploitation. Their task is to extend the research activities by promoting and supporting the exploitation of the results along with take-up activities related to the perspective applications. The majority of the project results will be made available as open source and the open source exploitation strategy will describe how to leverage the potential of such an open source initiative.
+The pillars of GeoKnow exploitation strategy are: tracking important technical and commercial developments in geo data management, semantic web, Web 2.0 as well as geospatial e-science and enterprise applications; analyzing the market sector(s) where the results can be applied and possibly licensed commercially; identifying the results of GeoKnow that are exploitable: particularly the GeoKnow Generator, some of the components and the innovative applications developed within the use cases; and identifying the appropriate distribution channels (including open source community) to exploit the different results of the project.
+The major outcome of this work package will be the GeoKnow Exploitation Plan, which will include a list of opportunities that arise from GeoKnow scientific and technical achievements and a detailed analysis of benefit and impact for the GeoKnow consortium as a whole as well as for the results of individual participants. The prestige of both the industrial partners and the use case partners makes the GeoKnow Consortium an international partnership."""@en ;
+         dct:identifier "T7.2" ;
+         ns2:leadPartner ns4:Unister ;
+         ns2:next ns4:t7-3 ;
+         ns2:partner ns4:ATH, ns4:Athena, ns4:InfAI, ns4:Ontos, ns4:OpenLink, ns4:Openlink, ns4:Unister, ns4:brox ;
+         ns2:previous ns4:t7-1 ;
+         ns2:taskNumber "2"^^xsd:integer ;
+         ns2:workpackage ns4:wp7 ;
+         a ns2:Task ;
+         rdfs:label "Exploitation"@en .

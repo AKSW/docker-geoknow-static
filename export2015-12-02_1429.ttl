@@ -1,0 +1,39 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:GeoKnow ns8:abbreviation "GeoKnow" ;
+            ns8:abstract """The advent of the Data Web demonstrates how Web technologies can be employed to integrate dispersed, heterogeneous information. Most information - be it the extent of habitats of aquatic species, data warehouses of E-Commerce systems or offerings of the bakery shop next door - has a directly or indirectly associated spatial dimension. Integrating and efficiently using information with such a spatial dimension on the Web poses very particular challenges. 
+First, we have to combine and reason about spatial and semantic features that use different vocabularies and representation techniques. Second, the wealth of pre-existing overlapping and complementary information sources in the spatial domain demands information management able to deal with billions of facts in a scalable manner. Third, only by dramatically lowering the entrance barriers extra value can be generated through the involvement of thousands of non-expert end users in authoring, curation and assessment. Within GeoKnow, we will tackle these challenges and spur the transition from islands of isolated Geographic Information Systems (GIS) to a Web of interlinked Geographic Knowledge Systems (GKS).
+We will validate our approach in two complementary application scenarios: (1) spatial-semantic collaboration in biological scientific communities involving citizen scientists and (2) spatial-semantic travel E-Commerce data management.
+GeoKnow will substantially contribute to the evolution of the Web from a medium for information exchange to a medium for (spatial) knowledge integration, e.g. the number of spatial LOD sources will increase from 31to >1,000. GeoKnow will help to realize network effects by increasing quality and coherence of the spatial Data Web, e.g. the data-linkage ratio will increase from 5% to 20%. For enterprises, the GeoKnow Generator will provide a cost-efficient way to integrate a variety of heterogeneous information sources within an Enterprise Data Intranet."""@en ;
+            ns2:endDate "2015-12-31"^^xsd:date ;
+            ns2:fullname "GeoKnow - Making the Web an Exploratory for Geospatial Knowledge" ;
+            ns2:grantAgreementNumber "318159"^^xsd:integer ;
+            ns2:istProjectnumber "1234567890"^^xsd:integer ;
+            ns2:objectives <http://purl.org/research-fp/homepage/objectives> ;
+            ns2:partner ns4:ATH, ns4:InfAI, ns4:Ontos, ns4:OpenLink, ns5:Institute_Mihajlo_Pupin, ns4:Unister, ns4:brox ;
+            ns2:startDate "2012-12-01"^^xsd:date ;
+            a ns2:Project, foaf:Project ;
+            rdfs:label "GeoKnow" ;
+            foaf:homepage <http://geoknow.eu> .

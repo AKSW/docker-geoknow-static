@@ -1,0 +1,37 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t3-4 dct:description """Community provided information can surpass the level of detail found in official and commercial maps. The first regions where community maps will show a higher level of detail might be countries for which official maps were the base data which was later refined by the community. In this task, we will develop metrics for volunteered geospatial information. The goal is to compare different maps and different regions of a map represented in the RDF data model. In particular we aim at developing metrics for the
+coverage of a category in a region, e.g. the percentage of buildings contained in a part of the map,
+precision of geometry and meta data, e.g. measuring the deviation of spatial objects from those in a reference dataset.
+pertinence of geographic information, e.g. by comparing the number of occurrences of categories between regions of the same or different datasets. For example, this could be used for tracking the importance of nodes in a supply chain, by keeping track of the amount of goods that pass through them.
+timeliness of data, e.g. measure how recent the covered information is."""@en ;
+         dct:identifier "T3.4" ;
+         ns2:next ns4:t3-5 ;
+         ns2:partner ns4:InfAI ;
+         ns2:previous ns4:t3-3 ;
+         ns2:taskNumber "4"^^xsd:integer ;
+         ns2:workpackage ns4:wp3 ;
+         a ns2:Task ;
+         rdfs:label "Metrics for Volunteered Geographic Information"@en .

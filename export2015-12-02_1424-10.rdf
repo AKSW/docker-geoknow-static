@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t2-6"
+    dct:identifier="T2.6"
+    rdfs:label="Geospatial problem solving">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description rdf:datatype="&sysont;Markdown">This task implements complex application logic co-resident with the data, drawing on caching of intermediate results in the query engine. Thus, very complex algorithms can be run efficiently of subbsets of the data without going to the persistent data representation. This is especially useful for running expensive computation with a high order of complexity, e.g. route planning, in principle NP complete, on relatively small subsets of the database. This will also find application in map comparison/conflation.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t2-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d2-6-1"
+    dct:identifier="D2.6.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">20</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t2-6" />
+    <rdfs:label xml:lang="en">Prototype of Built-In Complex Geo Problem Solving</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D2.6.1_Prototype_of_Built-in_Complex_Geo_Problem_Solving.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t2-5"
+    dct:identifier="T2.5"
+    rdfs:label="Distributed geospatial capabilities">
+    <dct:description rdf:datatype="&sysont;Markdown">This task optimizes the results of tasks 2.3 and 2.4 for cluster deployments. In practice this means logic for equal distribution of data and load over a cluster as well as logic for optimizing message flow between cluster nodes, e.g. longer queries will use larger message sizes since interconnect throughput is more efficiently utilized and latency avoided if sending larger units of work. We expect large volumes of data both in terms of the number of geographical points, and in terms of the volume of thematic information associated to these (e.g. time series of instrument readings). For such volumes to be handled in interactive time, a scale-out approach is needed.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:previous rdf:resource="t2-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-7"
+    dct:identifier="T2.7"
+    rdfs:label="Exposing INSPIRE data as Linked Data">
+    <dct:description rdf:datatype="&sysont;Markdown">This task will provide technical solutions and tools to expose INSPIRE data and metadata as geospatial Linked Data. Our work will focus on providing automatic and semi-automatic tools to repurpose/reuse geospatial information from INSPIRE SDIs, which consists of: (a) exposing catalogue services through SPARQL endpoints, (b) on-the-fly and custom transformations of INSPIRE metadata as VoiD (vocabulary of Interlinked Documents) with support for standard vocabularies (e.g. GEMET), (c) on-the-fly and custom transformations of geospatial data sets as geospatial RDF, based on standard (e.g. INSPIRE Data Specifications), or custom data schemas.
+On a practical level, our contributions will be based on a stack of open source tools and technologies for SDIs (focusing on OSGeo projects), to promote uptake and provide real world opportunities for exploitation (e.g. degree server, GeoNetwork). Further, we will focus on a real world SDI providing INSPIRE compatible data for Greece (geodata.gov.gr).</dct:description>
+    <ns2:leadPartner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t2-6" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">7</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+</rdf:RDF>

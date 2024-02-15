@@ -1,0 +1,33 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:ATH ns7:country <http://dbpedia.org/resourceGreece> ;
+        ns8:abbreviation "ATH" ;
+        dct:abstract "The Institute for the Management of Information Systems (IMIS) started its operation in March 2007, and is the newest institute of \"Athena\", the Research and Innovation Centre in Information, Communication and Knowledge Technologies. IMSI  conducts research, develops applications and products, and provides services in the areas of data management and large scale information systems. " ;
+        dct:description "The \"Athena\" Research and Innovation Centre in Information, Communication and Knowledge Technologies (www.athena-innovation.gr) is a research and technology body, which was founded under the auspices of the Greek Ministry of Development in 2001. R.C. “Athena” participates through the Institute for the Management of Information Systems (IMIS). IMIS was founded in 2007, with the mission to conduct research in the area of data management and large-scale information systems. The research at IMIS has a strong collaborative aspect and ranges from basic to applied research. The collaborative aspect is expressed in that research is conducted with national and international partners from industry as well as academia, often also in the context of novel and innovative projects. IMIS has already attracted funding from the European Union as well as from national funding agencies. IMIS activities focus on: Information integration and interoperability, Distributed Information Systems, Web Information Systems, Management of spatial and spatiotemporal data, and Privacy preservation."^^sysont:Markdown ;
+        dct:identifier "Athena" ;
+        a ns2:Partner, foaf:Organization ;
+        rdfs:label "Athena Research and Innovation Center"@en ;
+        foaf:homepage <http://www.imis.athena-innovation.gr/> ;
+        foaf:logo <http://www.geoknow.eu/site/images/logo-imis.png> .

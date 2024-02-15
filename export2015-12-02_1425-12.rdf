@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t5-2"
+    dct:identifier="T5.2">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">Based on the results of Task 5.1, this task is devoted to read RFID information and propagated this information into central or de-centralized spatial SPARQL endpoint infrastructures. We will adapt the GeoKnow generator framework to serve as a basis for such a supply chain spatial data infrastructure. For the de-centralized case, we will develop mechanisms for selecting designated parts of the information in one supply chain information endpoint, making this information available to cooperation partners in the supply chain by applying Linked Data techniques such as Semantic Pingback, PubSubhubbub and WebId. This information is syndicated and we will develop techniques for update propagation of such information along the supply chain.</dct:description>
+    <ns2:next rdf:resource="t5-3" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t5-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp5" />
+    <rdfs:label xml:lang="en">Supply Chain Geo Data Management infrastructure</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d5-2-1"
+    dct:identifier="D5.2.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">15</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t5-2" />
+    <rdfs:label xml:lang="en">Initial Prototype of Supply Chain Geo Data Management Infrastructure</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D5.2.1_Initial_prototype_of_Supply_Chain_Geo_Data_Management_infrastructure.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d5-2-2"
+    dct:identifier="D5.2.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">28</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t5-2" />
+    <rdfs:label xml:lang="en">Second Prototype of Supply Chain Geo Data Management Infrastructure</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D5.2.2_Second_prototype_of_Supply_Chain_Geo_Data_Management_infrastructure.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t5-1"
+    dct:identifier="T5.1">
+    <dct:description xml:lang="en">In this task we will develop techniques for making the information stored in RFID chips identifiable and accessible on the Web of Data. We will devise an identification scheme for RFID information and map the currently prevalent data models in supply chain applications to RDF. The mapping should be provenance preserving and accommodate temporal information and relationships. A particular aspect tackled in this task is the capturing and representation of access control rules.
+Deliverable 1. Supply chain information model.</dct:description>
+    <ns2:next rdf:resource="t5-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp5" />
+    <rdfs:label xml:lang="en">Connecting RFID Data to the Web of Data</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t5-3"
+    dct:identifier="T5.3">
+    <dct:description xml:lang="en">Once supply chain information is accessible and aggregated in a central or federated supply chain spatial data infrastructure we will adapt spatial visualization techniques for generating unified view on the state of the supply chain. These views will allow stakeholders to obtain an overview on the current state of the supply chain, identify bottlenecks and optimization potential and to perform distinct actions.</dct:description>
+    <ns2:next rdf:resource="t5-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t5-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp5" />
+    <rdfs:label xml:lang="en">Consolidated spatial view of the whole supply chain</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

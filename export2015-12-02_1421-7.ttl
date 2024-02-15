@@ -1,0 +1,42 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:PrintMaterial ns1:content """<div class=\"nav-sidelinks\"> <ul>
+<li><a href=\"http://geoknow.eu/PrintMaterial.html\">Printed Material</a></li>
+<li><a href=\"http://geoknow.eu/PressReleases.html\">Press Releases</a></li>
+<li><a href=\"http://geoknow.eu/Presentations.html\">Presentations</a></li>
+</ul></div> 
+
+
+<h3> <a id=\"FactSheet\">Fact Sheet</a></h3>
+
+This Geoknow flyer will be distributed at Geoknow events. Anyone that wishes to promote Geoknow may download and distribute this PDF version.
+
+<a href=\"http://svn.aksw.org/projects/GeoKnow/Public/GeoKnow-Factsheet.pdf\" target=\"_blank\">
+<img src=\"http://www.geoknow.eu/site/images/3d-brochure-web.png\" width=\"500px\" /></a>
+
+<h3>Stickers</h3>
+<img src=\"http://www.geoknow.eu/site/images/geoknow-sticker-thumb.png\"/></a>"""^^sysont:Markdown ;
+                  a <foaf:Document> ;
+                  rdfs:label "Printed Material" .

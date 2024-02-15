@@ -1,0 +1,32 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t6-1 dct:description "The first step in this task will be the identification and selection of relevant data partitions of existing real CRM systems and travel/tourism portals (e.g. ab-in-den-urlaub.de, travel24.com, fluege.de). Here, we will investigate internal data as well as its interlinkability with other open data sets as geospatial and spatial social network data. We will develop retrieval methods and tools and aggregate this data. Additionally, we will execute preparations and needed transformations on that data to ensure ease of integration with the GKS and efficient processing of the data. A part of this will be the transformation into an RDF representation. In Task 6.1 a proprietary CRM, developed in-house at Unister, is used. Because Unister has to deal with many different and changing vendors of travel/tourism services and products, this special CRM takes into account the many different CRM data structures provided by these vendors. It is more appropriate to identify it as system of CRMs."@en ;
+         dct:identifier "T6.1" ;
+         ns2:next ns4:t6-2 ;
+         ns2:partner ns4:InfAI, ns4:Unister ;
+         ns2:taskNumber "1"^^xsd:integer ;
+         ns2:workpackage ns4:wp6 ;
+         a ns2:Task ;
+         rdfs:label "Customer data selection, retrieval and preparation"@en .

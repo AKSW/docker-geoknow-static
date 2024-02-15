@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t8-6"
+    dct:identifier="T8.6">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">Establishing a quality assurance procedure that every deliverable has to undergo before submission to the EC.</dct:description>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t8-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Quality assurance of deliverables</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-5"
+    dct:identifier="T8.5">
+    <dct:description xml:lang="en">Establishing and maintaining an internal tool to monitor resource expenditure (person months spending) per partner and per WP.</dct:description>
+    <ns2:next rdf:resource="t8-6" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t8-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Monitoring of resource expenditure</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

@@ -1,0 +1,38 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:Ontos ns7:country <http://dbpedia.org/resourceSwitzerland> ;
+          ns8:abbreviation "Ontos" ;
+          dct:abstract "Ontos AG was founded in 2001 with the goal to develop semantic solutions. The privately owned company has key activities in the area of automatic extraction of entities and relations from natural text based on an ontology driven approach and building different web services and solutions. " ;
+          dct:description """Ontos has a long track record of successfully developing and marketing complex software products with a large share of research work. Examples are the text mining suite OntosMiner™ (available for many European languages), the web service platform Ontos API or the visualization and analytics suite Ontos News (available at http://news.ontos.com). Headquartered in Switzerland and with development labs & sales offices in Leipzig (Germany), Moscow (Russia) and Belgrade (Serbia), Ontos is one of the few players, which successfully markets semantic technologies in many European countries.
+
+Ontos has launched own solutions on the web as Software-as-a-Service (e.g., http://news.ontos.com) which are used by internet users. Ontos is addressing several industry segments. One is law enforcement where analytical systems are delivered that allow analysing data from structured and unstructured sources based on ontology engineering. Furthermore, Ontos is addressing the market of media and news by supplying tools to automatic annotate web pages using semantic technologies and to create semantic related content that can be published inside the customer web page. The sales activities are in Europe, Russia and Central Asia. Ontos has a patent-pending method for the semantic navigation through web pages based on the automatic semantic annotated information. Ontos is a member of W3C and supports the W3C standards like RDF, OWL and SPARQL.
+
+Ontos is pursuing the vision of the semantic web and related technologies. In addition to semantic technologies, the Ontos team has gained experience in grid computing, data visualisation and designing and implementing the solution inside portals. 
+"""^^sysont:Markdown ;
+          dct:identifier "Ontos" ;
+          a ns2:Partner, foaf:Organization ;
+          rdfs:label "Ontos AG"@en ;
+          foaf:homepage <http://www.ontos.com> ;
+          foaf:logo <http://www.geoknow.eu/site/images/logo-ontos.png> .

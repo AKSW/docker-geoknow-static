@@ -1,0 +1,61 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:wp8 <dcterms:abstract> """The management work package ensures:
+* That the project remains on course,
+* That it is effectively and correctly managed financially,
+* That its progress and status are efficiently and effectively monitored,
+* That the required reporting is prepared and delivered in a timely manner,
+* That all quality aspects of the project are fully and correctly addressed,
+* That support for the infrastructure supporting the web-based facilities to be used for dissemination and central intra-project communication and cooperation is provided. The project management will entail strategically, project-wide as well as day-to-day central management and coordination activities. The several different management boards, which will be established in the consortium, will be responsible for decisions and activities of different scope and level according to their function. The project management has to ensure that the following tasks are managed efficiently and with success:
+* Preparation and maintenance of project quality plans,
+* Preparation and maintenance of project personnel and finance plans,
+* Coordination and maintenance of the facilities established for intra-project communication,
+* Development and maintenance of the website and its content management and collaboration
+* applications,
+* Coordination of the development and delivery of project reporting, both internally to the project and externally to the Commission Overall assessment of progress within the project and of the achievement of results will be managed by the hierarchical organisational management structure and its corresponding hierarchical reporting and control structures. Each work package will maintain, monitor and control its internal project plan, specifying its deliverables, tasks and milestones; these are to be reported on a regular basis to the Project management Board, and reviewed within the Technical Project Management Board. In this manner, progress and results within the work packages will be centrally monitored and compared against the overall objectives of the project. Moreover, interdependencies between work packages, and the impact of deviations in a work package, for example, can be centrally assessed and appropriate action can be taken, including a referral to the Executive Project Management Board where necessary."""@en ;
+        dct:description """The management work package ensures:
+<ul><li>That the project remains on course,</li>
+<li>That it is effectively and correctly managed financially,</li>
+<li>That its progress and status are efficiently and effectively monitored,</li>
+<li>That the required reporting is prepared and delivered in a timely manner,</li>
+<li>That all quality aspects of the project are fully and correctly addressed,</li>
+<li>That support for the infrastructure supporting the web-based facilities to be used for dissemination and central intra-project communication and cooperation is provided. The project management will entail strategically, project-wide as well as day-to-day central management and coordination activities. The several different management boards, which will be established in the consortium, will be responsible for decisions and activities of different scope and level according to their function. The project management has to ensure that the following tasks are managed efficiently and with success:</li>
+<li>Preparation and maintenance of project quality plans,</li>
+<li>Preparation and maintenance of project personnel and finance plans,</li>
+<li>Coordination and maintenance of the facilities established for intra-project communication,</li>
+<li>Development and maintenance of the website and its content management and collaboration</li>
+<li>applications,</li>
+<li>Coordination of the development and delivery of project reporting, both internally to the project and externally to the Commission Overall assessment of progress within the project and of the achievement of results will be managed by the hierarchical organisational management structure and its corresponding hierarchical reporting and control structures. Each work package will maintain, monitor and control its internal project plan, specifying its deliverables, tasks and milestones; these are to be reported on a regular basis to the Project management Board, and reviewed within the Technical Project Management Board. In this manner, progress and results within the work packages will be centrally monitored and compared against the overall objectives of the project. Moreover, interdependencies between work packages, and the impact of deviations in a work package, for example, can be centrally assessed and appropriate action can be taken, including a referral to the Executive Project Management Board where necessary.</li></ul>"""@en ;
+        dct:identifier "WP8" ;
+        ns2:activity ns2:MGT ;
+        ns2:endMonth "36"^^xsd:integer ;
+        ns2:leadPartner ns4:InfAI ;
+        ns2:next ns4:wp9 ;
+        ns2:personMonths "23.0"^^xsd:float ;
+        ns2:previous ns4:wp7 ;
+        ns2:startMonth "1"^^xsd:integer ;
+        ns2:workpackageNumber "8"^^xsd:integer ;
+        a ns2:WorkPackage ;
+        rdfs:label "Project Management"@en .

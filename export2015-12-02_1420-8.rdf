@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:WorkPackage rdf:about="wp8"
+    dct:identifier="WP8">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The management work package ensures:
+* That the project remains on course,
+* That it is effectively and correctly managed financially,
+* That its progress and status are efficiently and effectively monitored,
+* That the required reporting is prepared and delivered in a timely manner,
+* That all quality aspects of the project are fully and correctly addressed,
+* That support for the infrastructure supporting the web-based facilities to be used for dissemination and central intra-project communication and cooperation is provided. The project management will entail strategically, project-wide as well as day-to-day central management and coordination activities. The several different management boards, which will be established in the consortium, will be responsible for decisions and activities of different scope and level according to their function. The project management has to ensure that the following tasks are managed efficiently and with success:
+* Preparation and maintenance of project quality plans,
+* Preparation and maintenance of project personnel and finance plans,
+* Coordination and maintenance of the facilities established for intra-project communication,
+* Development and maintenance of the website and its content management and collaboration
+* applications,
+* Coordination of the development and delivery of project reporting, both internally to the project and externally to the Commission Overall assessment of progress within the project and of the achievement of results will be managed by the hierarchical organisational management structure and its corresponding hierarchical reporting and control structures. Each work package will maintain, monitor and control its internal project plan, specifying its deliverables, tasks and milestones; these are to be reported on a regular basis to the Project management Board, and reviewed within the Technical Project Management Board. In this manner, progress and results within the work packages will be centrally monitored and compared against the overall objectives of the project. Moreover, interdependencies between work packages, and the impact of deviations in a work package, for example, can be centrally assessed and appropriate action can be taken, including a referral to the Executive Project Management Board where necessary.</ns9:abstract>
+    <dct:description xml:lang="en">The management work package ensures:
+&lt;ul&gt;&lt;li&gt;That the project remains on course,&lt;/li&gt;
+&lt;li&gt;That it is effectively and correctly managed financially,&lt;/li&gt;
+&lt;li&gt;That its progress and status are efficiently and effectively monitored,&lt;/li&gt;
+&lt;li&gt;That the required reporting is prepared and delivered in a timely manner,&lt;/li&gt;
+&lt;li&gt;That all quality aspects of the project are fully and correctly addressed,&lt;/li&gt;
+&lt;li&gt;That support for the infrastructure supporting the web-based facilities to be used for dissemination and central intra-project communication and cooperation is provided. The project management will entail strategically, project-wide as well as day-to-day central management and coordination activities. The several different management boards, which will be established in the consortium, will be responsible for decisions and activities of different scope and level according to their function. The project management has to ensure that the following tasks are managed efficiently and with success:&lt;/li&gt;
+&lt;li&gt;Preparation and maintenance of project quality plans,&lt;/li&gt;
+&lt;li&gt;Preparation and maintenance of project personnel and finance plans,&lt;/li&gt;
+&lt;li&gt;Coordination and maintenance of the facilities established for intra-project communication,&lt;/li&gt;
+&lt;li&gt;Development and maintenance of the website and its content management and collaboration&lt;/li&gt;
+&lt;li&gt;applications,&lt;/li&gt;
+&lt;li&gt;Coordination of the development and delivery of project reporting, both internally to the project and externally to the Commission Overall assessment of progress within the project and of the achievement of results will be managed by the hierarchical organisational management structure and its corresponding hierarchical reporting and control structures. Each work package will maintain, monitor and control its internal project plan, specifying its deliverables, tasks and milestones; these are to be reported on a regular basis to the Project management Board, and reviewed within the Technical Project Management Board. In this manner, progress and results within the work packages will be centrally monitored and compared against the overall objectives of the project. Moreover, interdependencies between work packages, and the impact of deviations in a work package, for example, can be centrally assessed and appropriate action can be taken, including a referral to the Executive Project Management Board where necessary.&lt;/li&gt;&lt;/ul&gt;</dct:description>
+    <ns2:activity rdf:resource="&ns2;MGT" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:next rdf:resource="wp9" />
+    <ns2:personMonths rdf:datatype="&xsd;float">23.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp7" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">8</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">Project Management</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:Task rdf:about="t8-1"
+    dct:identifier="T8.1">
+    <dct:description xml:lang="en">Monitoring the application of the Consortium Agreement and the compliance of all partners with the regulations put forth in it. Planning of consortium meetings according to the projects’ work plan and EC guideline.</dct:description>
+    <ns2:next rdf:resource="t8-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Management of the consortium</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-2"
+    dct:identifier="T8.2">
+    <dct:description xml:lang="en">Preparing and creating the necessary management reports according to EC guidelines Contacting the EC services for administrative purposes</dct:description>
+    <ns2:next rdf:resource="t8-3" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t8-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Communication with the EC</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-3"
+    dct:identifier="T8.3">
+    <dct:description xml:lang="en">Preparing and compiling of Periodic Financial Report obtaining Audit Certificates from partners.</dct:description>
+    <ns2:next rdf:resource="t8-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t8-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Financial Management</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-4"
+    dct:identifier="T8.4">
+    <dct:description xml:lang="en">Establishing and maintaining of mailing lists according to the needs of the project Establishing and maintaining of project website/document repository.</dct:description>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:next rdf:resource="t8-5" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t8-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Internal communication</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-5"
+    dct:identifier="T8.5">
+    <dct:description xml:lang="en">Establishing and maintaining an internal tool to monitor resource expenditure (person months spending) per partner and per WP.</dct:description>
+    <ns2:next rdf:resource="t8-6" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t8-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Monitoring of resource expenditure</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-6"
+    dct:identifier="T8.6">
+    <dct:description xml:lang="en">Establishing a quality assurance procedure that every deliverable has to undergo before submission to the EC.</dct:description>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t8-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Quality assurance of deliverables</rdfs:label>
+  </ns2:Task>
+
+  <ns2:WorkPackage rdf:about="wp7"
+    dct:identifier="WP7">
+    <ns9:abstract xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+&lt;ul&gt;&lt;li&gt;Informing the community of the state-of-the-art developments taking place in the field,&lt;/li&gt;
+&lt;li&gt;Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.&lt;/li&gt;&lt;/ul&gt;</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="wp8" />
+    <ns2:personMonths rdf:datatype="&xsd;float">29.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp6" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">7</ns2:workpackageNumber>
+    <rdfs:label>Dissemination, community building, exploitation &amp; standards</rdfs:label>
+    <rdfs:label xml:lang="en">Dissemination, community building, exploitation &amp; standards</rdfs:label>
+  </ns2:WorkPackage>
+
+</rdf:RDF>

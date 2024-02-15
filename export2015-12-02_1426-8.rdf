@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t7-3"
+    dct:identifier="T7.3">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">GeoKnow will actively participate in appropriate standards bodies, specifically the W3C and/or DC. Such participation is twofold; on the one hand to ensure that established and emerging standards are taken into account appropriately in the GeoKnow project and, on the other hand, to seek to influence standardisation bodies. Concrete standardisation activities pursued in the context of GeoKnow are listed in section B1.9.4. The consortium represented by its W3C members (OpenLink and Ontos) will together with other actors establish a W3C Spatial Linked Data interest group in order to found a nucleolus for the growing user community of Spatial Data Web technologies.</dct:description>
+    <ns2:next rdf:resource="t7-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t7-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Standardisation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d7-3-1"
+    dct:identifier="D7.3.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">8</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-3" />
+    <rdfs:label xml:lang="en">First Standardization Report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.3.1_First_Standardisation_Report.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d7-3-2"
+    dct:identifier="D7.3.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">32</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t7-3" />
+    <rdfs:label xml:lang="en">Second Standardization Report</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D7.3.2_Second_Standardisation_Report_public.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t7-2"
+    dct:identifier="T7.2">
+    <dct:description xml:lang="en">The two case studies and the industrial and end-user community partners will drive the exploitation. Their task is to extend the research activities by promoting and supporting the exploitation of the results along with take-up activities related to the perspective applications. The majority of the project results will be made available as open source and the open source exploitation strategy will describe how to leverage the potential of such an open source initiative.
+The pillars of GeoKnow exploitation strategy are: tracking important technical and commercial developments in geo data management, semantic web, Web 2.0 as well as geospatial e-science and enterprise applications; analyzing the market sector(s) where the results can be applied and possibly licensed commercially; identifying the results of GeoKnow that are exploitable: particularly the GeoKnow Generator, some of the components and the innovative applications developed within the use cases; and identifying the appropriate distribution channels (including open source community) to exploit the different results of the project.
+The major outcome of this work package will be the GeoKnow Exploitation Plan, which will include a list of opportunities that arise from GeoKnow scientific and technical achievements and a detailed analysis of benefit and impact for the GeoKnow consortium as a whole as well as for the results of individual participants. The prestige of both the industrial partners and the use case partners makes the GeoKnow Consortium an international partnership.</dct:description>
+    <ns2:leadPartner rdf:resource="Unister" />
+    <ns2:next rdf:resource="t7-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t7-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Exploitation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-4"
+    dct:identifier="T7.4">
+    <dct:description xml:lang="en">The Consortium partners will engage in technical EC-orchestration activities in two directions: (1) to facilitate the take-up of GeoKnow technology by other projects, and (2) to get input from other EU-funded projects, which are relevant for the development in GeoKnow. In section B1.2.4 of the proposal, we have assembled and presented a comprehensive list of relevant European and other projects. We are committed to technical collaboration with all European projects, which are related to the GeoKnow technology.</dct:description>
+    <ns2:next rdf:resource="t7-5" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t7-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Orchestration with other projects</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

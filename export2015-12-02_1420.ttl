@@ -1,0 +1,35 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:wp1 dct:description "This work package aims at: (1) specifying use cases and to collect end-user requirements from the application areas by consulting end user groups and other technology users; (2) identify technical requirements and constraints as well as interoperability standards to be adopted, (3) specify an architecture and system design for the GeoKnow Generator; (4) develop an early prototype of the GeoKnow Generator as an early proof of concept and (5) design and implement a continuous benchmarking system. Along with these objectives, we will ensure that the project addresses specific end user and industry needs; the GeoKnow technology is flexible and extensible to other domains; the development is in line with the major geo-spatial initiatives by leveraging on, complementing and not reduplicating work already done in this area; social networking approaches, such as for providing feedback on the data quality, correcting errors and adding facts, translations or links,are tightly integrated in the GeoKnow Generator in a generic manner; pre-existing technology developed by the project partners is harmonized. Relevant standards to be adopted shall be monitored under this WP. We will use iterative refinement processes, e.g. by re-assessing the requirements with the help of the end user communities. These will be adapted, if necessary."^^sysont:Markdown ;
+        dct:identifier "WP1" ;
+        ns2:activity ns2:RTD ;
+        ns2:endMonth "36"^^xsd:integer ;
+        ns2:leadPartner ns4:Ontos ;
+        ns2:next ns4:wp2 ;
+        ns2:personMonths "109.0"^^xsd:float ;
+        ns2:startMonth "1"^^xsd:integer ;
+        ns2:workpackageNumber "1"^^xsd:integer ;
+        a ns2:WorkPackage ;
+        rdfs:label "Requirements, Design, Benchmarking, Component Integration"@en .

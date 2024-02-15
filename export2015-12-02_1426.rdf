@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t5-6"
+    dct:identifier="T5.6">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">This task will enable users to perform different operations and get insight into the state of the organizations supply chain by using mobile devices, thus improving productivity. The goal is to develop a mobile version of the consolidated spatial view developed in Task 5.3, to potentially replace some of the proprietary devices currently used in supply chain to significantly reduce costs, and to enable operational personnel involved in managing and executing logistics to make decisions and act on the go (optimize, prevent bottlenecks, etc.) by having real‐time access to the supply chain. For the purpose of testing and evaluation, the data from other tasks will be used, i.e. no additional data or testing will be needed from the partners. This task will build on Tasks 4.5 and 4.6 Evaluation and testing activities will be performed within Task 5.5 and the respective results documented in Deliverable 5.5.</dct:description>
+    <ns2:partner rdf:resource="&ns5;Institute_Mihajlo_Pupi" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t5-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp5" />
+    <rdfs:label xml:lang="en">Mobile Supply Chain consolidated spatial view</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d5-6-1"
+    dct:identifier="D5.6.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t5-6" />
+    <rdfs:label>Release of the Mobile Supply Chain Consolidated View Application</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D5.6.1_Mobile_SCD.pdf" />
+  </ns2:Deliverable>
+
+</rdf:RDF>

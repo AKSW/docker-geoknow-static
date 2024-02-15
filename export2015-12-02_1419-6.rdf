@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <foaf:Document rdf:about="Results"
+    ns1:menuLabel="Results"
+    rdfs:label="Results">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns1:content rdf:datatype="&sysont;Markdown">&lt;div class="nav-sidelinks"&gt; &lt;ul&gt;
+&lt;li&gt;&lt;a href="http://geoknow.eu/Deliverables"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://geoknow.eu/Publications"&gt;Publications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt; 
+
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;a href="http://geoknow.eu/Deliverables.html"&gt;Deliverables&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;All results of Geoknow are published in a series of PUblic and COnfidential deliverables.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href="http://geoknow.eu/Publications.html"&gt;Publications&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;GeoKnow research results are disseminated to scientific communities in different conference and workshops proceedings&lt;/dd&gt;
+&lt;/dl&gt;
+
+</ns1:content>
+  </foaf:Document>
+
+  <ns1:Navigation rdf:about="&ns4;Navigation/Main"
+    rdfs:label="Main Navigation">
+    <rdf:_1 rdf:resource="Project" />
+    <rdf:_2 rdf:resource="Consortium" />
+    <rdf:_3 rdf:resource="Dissemination" />
+    <rdf:_4 rdf:resource="Events" />
+    <rdf:_5 rdf:resource="Results" />
+  </ns1:Navigation>
+
+  <foaf:Document rdf:about="Publications"
+    rdfs:label="Publications">
+    <ns1:content rdf:datatype="&sysont;Markdown">&lt;div class="nav-sidelinks"&gt; &lt;ul&gt;
+&lt;li&gt;&lt;a href="Deliverables.html"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Publications.html"&gt;Publications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt; 
+
+BibTeX entries for all AKSW publications can be found at [Bibsonomy](http://www.bibsonomy.org/user/aksw).
+  
+&lt;div ex:role="view" ex:grouped="false" ex:orders=".year,.label" ex:directions="descending,ascending" ex:showSummary="true" ex:showDuplicates="false"&gt;
+    &lt;div ex:role="lens" ex:itemTypes="Publication" style="display: none"&gt;
+        &lt;strong&gt;
+            &lt;span ex:content="if(exists(.url), concat(&apos;&lt;a href=&apos;, .url, &apos;&gt;&apos;, .label, &apos;&lt;/a&gt;&apos;), .label)"&gt;&lt;/span&gt;
+            &lt;span ex:if-exists=".author"&gt;
+                &lt;span class="meta"&gt;&lt;em&gt;by&lt;/em&gt; &lt;span class="author" ex:content=".author"&gt;&lt;/span&gt;&lt;/span&gt;
+            &lt;/span&gt;
+        &lt;/strong&gt;
+        &lt;span class="meta"&gt;
+            &lt;span ex:content="if(exists(.booktitle), concat(&apos;&lt;em&gt;in&lt;/em&gt; &apos;, .booktitle), &apos;&apos;)"&gt;&lt;/span&gt;
+            &lt;span class="journal" ex:content="if(exists(.journal), concat(&apos;&lt;em&gt;in&lt;/em&gt; &apos;, .journal), &apos;&apos;)"&gt;&lt;/span&gt;
+            &lt;span ex:if-exists=".editor"&gt;(Editors: &lt;span class="editor" ex:content=".editor"&gt;&lt;/span&gt;)&lt;/span&gt;
+            &lt;a ex:if-exists=".biburl" ex:href-content=".biburl" &gt;[BibTex&lt;span class="hideme"&gt; of &lt;span ex:content=".label"&gt;&lt;/span&gt;&lt;/span&gt;]&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class="note" ex:content="if(exists(.note), concat(&apos;&lt;br&gt;&lt;/span&gt;&lt;em&gt;Note:&lt;/em&gt; &apos;, .note), &apos;&apos;)"&gt;&lt;/span&gt;
+        &lt;span class="abstract" ex:content="if(exists(.abstract), concat(&apos;&lt;br&gt;&lt;/span&gt;&lt;details&gt;&lt;summary&gt;Abstract:&lt;/summary&gt; &apos;, .abstract, &apos;&lt;/details&gt;&apos;), &apos;&apos;)"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</ns1:content>
+    <ns1:templateOption>extended</ns1:templateOption>
+    <ns1:templateOption>noheading</ns1:templateOption>
+    <ns2:exhibitData rdf:resource="http://docs.aksw.org/BibsonomyProxy/exhibit-proxy.php?suffix=relevantfor/group/geoknow&amp;callback=cb" />
+    <skos:broader rdf:resource="Results" />
+  </foaf:Document>
+
+</rdf:RDF>

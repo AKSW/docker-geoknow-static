@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t1-3"
+    dct:identifier="T1.3">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">A benchmarking strategy will be developed and the platforms performance will be evaluated, based on well-established benchmarks, such as the Sequoia 2000 and Paradise benchmark3. In particular, the benchmark will be based on OSM and Natural Earth datasets, complemented by synthetic social data from the LOD2 Social Intelligence Benchmark. Further, to perform benchmarking tests that can deal with very large datasets, we will develop a suitable infrastructure by (1) evaluating existing high-performant and compact GIS storage formats for adoption of best practices (e.g. Oracle Spatial, PostGIS), (2) developing a suitable process for extract-transform-load of geo data, including coordinate transforms and schema mapping (e.g. GDAL/OGR, GeoKettle). This is in itself a matter of benchmarking but also enables running benchmarks targeting diverse geospatial workloads such as localized, potentially high frequency accesses for route planning and querying; as well as aggregation queries that span large portions of the map and join with thematic data.
+
+The Sequoia workload is an initial checklist item for validating functionality and relative performance as opposed to existing GIS. Geoknow will move beyond the state of the art by using and further refining the geospatial benchmark built in LOD2, emulating heavy drill-down style online access patterns and accessing large volumes of thematic data. An example of this is zooming on a map shaded according to population density or real estate prices. Beyond this, benchmarking will look at more complex analytics such as deciding locations of services based on population distribution, competitive services, road network capacity and the like. The last category is not expressible as a query but requires database resident application logic.
+
+Further, to compare GKS and its components with other state of the art systems, we will use the SEALS project benchmarking services. This will provide us with an objective evaluation of the GKS and its components.
+
+Benchmarks will be done early, so as to provide constant tracking of performance.
+Virtuoso&apos;s relational GIS functionality will be compared to PostGIS using the full scale OSM data and typical OSM queries and updates. Further, an RDF version of this will be run on Virtuoso and its performance will be compared to the performance attained with OSM in relational form on Virtuoso.</dct:description>
+    <ns2:next rdf:resource="t1-4" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t1-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp1" />
+    <rdfs:label xml:lang="en">Performance Benchmarking and Evaluation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d1-3-1"
+    dct:identifier="D1.3.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">6</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;CO" />
+    <ns2:task rdf:resource="t1-3" />
+    <rdfs:label xml:lang="en">Design and Setup  of Benchmarking System</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Confidential/D1.3.1_Design_and_Setup_of_Benchmarking_System.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d1-3-2"
+    dct:identifier="D1.3.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">12</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t1-3" />
+    <rdfs:label xml:lang="en">Continuous Report on Performance Evaluation</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D1.3.2_Continuous_Report_on_Performance_Evaluation.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d1-3-3"
+    dct:identifier="D1.3.3">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">3</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">24</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t1-3" />
+    <rdfs:label xml:lang="en">Continuous Report on Performance Evaluation</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D1.3.3_Continuous_Report_on_Performance_Evaluation.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d1-3-4"
+    dct:identifier="D1.3.4">
+    <ns2:deliverableNature rdf:resource="&ns2;Report" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">4</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">36</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t1-3" />
+    <rdfs:label xml:lang="en">Continuous Report on Performance Evaluation</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D1.3.4_Continuous_Report_on_Performance_Evaluation.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t1-2"
+    dct:identifier="T1.2">
+    <dct:description rdf:datatype="&sysont;Markdown">This task is devoted to specifying the GeoKnow architecture and the detailed design of the GeoKnow Generator. Scalability, extensibility and flexibility shall be achieved by employing Service Oriented Knowledge Utilities (SOKU) in order to develop next generation GKS. Components of the system will be building blocks developed in individual work packages WP2-4, such as the semantics based geo-spatial information management subsystem (WP2), spatial knowledge fusing and integration methods (WP3), the development of user interfaces for spatial-semantic browsing and authoring (WP4). The developed components will be integrated within this task. While the common technical requirements will be one major input for the system design, other major sources will be the developed use cases and end user requirements as well as interoperability standards.
+The system design defines clear interfaces between the individual components. It will be based on existing standards and will provide a modular plug’n’serve structure and shall be able to accommodate REST components and JavaScript user interface widgets. The architecture will be centred around the OWL/RDF-statement paradigm, which enables interactions between components on different conceptual levels, such as triples, classes and instances, ontologies, logical axioms etc.</dct:description>
+    <ns2:next rdf:resource="t1-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t1-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp1" />
+    <rdfs:label xml:lang="en">GeoKnow architecture &amp; system design</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t1-4"
+    dct:identifier="T1.4">
+    <dct:description xml:lang="en">During this task individual components developed in WP2-4 will be integrated into a ready to use GKS Generator and associated APIs in order to enable communities of practice to create domain specific GKSes with a minimum of effort. For example, chosing between map providers (e.g. OpenStreetMap, Google Maps) will require no coding, and there will be a widget library, based on the use-cases, with some widgets (e.g. for place searches, ratings, images and facts) being usable across multiple domains. A plug-in system will ensure that new styles and behaviour can be added in case none of the provided components turn out to be applicable.
+Thus, this task consists of the following subtasks:
+Integration of User Interface Components. The goal of this sub-task is to provide rich GUIs for social-aware GKS applications. 
+Integration of GeoKnow Generator and API. The objective of this sub-task is to integrate the GeoKnow components developed in WP2-4 and the Web 2.0 toolkit into a ready to use GKS Generator with underlying service APIs. Within this task we will perform software integration activities together with WP2-4. 
+Testing, documentation &amp; tutorials. This sub-task will take the end-user and technical feedbacks resulting from WP5-6 into account to improve the final GeoKnow Generator and provide documentation and tutorials. The documentation of the evaluation should provide both quantitative and qualitative results, through real-life trials of the proposed work. A number of alpha and beta testing results will be documented by this task, which will be conducted after the delivery of each module and provide quantitative results.</dct:description>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t1-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp1" />
+    <rdfs:label xml:lang="en">Component integration and GeoKnow Generator</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

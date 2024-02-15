@@ -1,0 +1,49 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:wp5 <dcterms:abstract> """This use case will target the Enterprise Data Integration domain and adapt the GeoKnow platform for facilitation the establishment of an Enterprise Data Intra- and Extranet. BROX, OpenLink and Ontos are with Eccenca, Virtuoso and Ontos Miner developing products for Enterprise Data integration. In this use case, we will refine and advance the integration of the GeoKnow platform in such a way, that Enterprise users can use the resulting technology stack to establish spatial linked data driven supply chains as a crystallization point for the establishment of a Data Extranet in addition to existing document-oriented Extranets.
+
+One of the most promising application areas for spatial Linked Data is supporting the supply chain. Large manufacturers such as for example Volkswagen or Daimler have many thousands of suppliers rendering the information flows accompanying these supply chains (or networks) a real Big Data challenge. Facilitating the information flows between these suppliers and accompanying flows of material and product logistics is one of the most challenging and most promising areas of Enterprise Data Integration.
+
+The aim of this use case will be to give enterprises collaborating in supply chains a unified spatial view on the logistics in the supply chain. In order to realize this aim, we will connect information stored in RFIDs to the Data Web. As a result, the flow of material and accompanying information can be observed in real-time, bottlenecks can be identified early, media breaks in the information flows are minimized and supply chains can be organized at an unprecedented level of dynamicity and efficiency.
+
+The use case will be implemented and prototypically deployed at a large scale supply chain environment in close collaboration with BROXâ€™s partner Schnellecke. Schnellecke has more than 14,000 employees at more than 40 company sites worldwide, Schnellecke contributes to the corporate success of its customers through the development and implementation of tailored logistics solutions and optimized value-added chains. Schnellecke is the worldwide leading value-adding logistics service provider in the automotive industry (cf. letter of support in the Appendix). The following two screenshots illustrate the vision pursued in this use case: employing a combination of map and faceted-browsing (left), logistics managers are empowered to track and supervise supply chain flows in real time. Each item and geo-location is equipped with additional structured data (right), which is obtained from a SPARQL endpoint. The information displayed on such a supply chain dashboard is aggregated from a number of different information sources. Background knowledge from the Data Web (such LinkedGeoData) is used to enrich the information obtained from the SPARQL endpoints of the partners in the supply chain as well as for providing a spatial context. Such sources include in particular LinkedGeoData (e.g. providing precise road network, land use and building information), Geonames (providing information on administrative regions) and DBpedia, which contains, for example, information about train stations, airports and other facilities. Also, data obtained from Open Governmental Data sources can be useful here.                                                                                           """@en ;
+        dct:description """This use case will target the Enterprise Data Integration domain and adapt the GeoKnow platform for facilitation the establishment of an Enterprise Data Intra- and Extranet. BROX, OpenLink and Ontos are with Eccenca, Virtuoso and Ontos Miner developing products for Enterprise Data integration. In this use case, we will refine and advance the integration of the GeoKnow platform in such a way, that Enterprise users can use the resulting technology stack to establish spatial linked data driven supply chains as a crystallization point for the establishment of a Data Extranet in addition to existing document-oriented Extranets.
+
+One of the most promising application areas for spatial Linked Data is supporting the supply chain. Large manufacturers such as for example Volkswagen or Daimler have many thousands of suppliers rendering the information flows accompanying these supply chains (or networks) a real Big Data challenge. Facilitating the information flows between these suppliers and accompanying flows of material and product logistics is one of the most challenging and most promising areas of Enterprise Data Integration.
+
+The aim of this use case will be to give enterprises collaborating in supply chains a unified spatial view on the logistics in the supply chain. In order to realize this aim, we will connect information stored in RFIDs to the Data Web. As a result, the flow of material and accompanying information can be observed in real-time, bottlenecks can be identified early, media breaks in the information flows are minimized and supply chains can be organized at an unprecedented level of dynamicity and efficiency.
+
+The use case will be implemented and prototypically deployed at a large scale supply chain environment in close collaboration with BROXâ€™s partner Schnellecke. Schnellecke has more than 14,000 employees at more than 40 company sites worldwide, Schnellecke contributes to the corporate success of its customers through the development and implementation of tailored logistics solutions and optimized value-added chains. Schnellecke is the worldwide leading value-adding logistics service provider in the automotive industry (cf. letter of support in the Appendix). The following two screenshots illustrate the vision pursued in this use case: employing a combination of map and faceted-browsing (left), logistics managers are empowered to track and supervise supply chain flows in real time. Each item and geo-location is equipped with additional structured data (right), which is obtained from a SPARQL endpoint. The information displayed on such a supply chain dashboard is aggregated from a number of different information sources. Background knowledge from the Data Web (such LinkedGeoData) is used to enrich the information obtained from the SPARQL endpoints of the partners in the supply chain as well as for providing a spatial context. Such sources include in particular LinkedGeoData (e.g. providing precise road network, land use and building information), Geonames (providing information on administrative regions) and DBpedia, which contains, for example, information about train stations, airports and other facilities. Also, data obtained from Open Governmental Data sources can be useful here.                                                                                           """@en ;
+        dct:identifier "WP5" ;
+        ns2:activity ns2:RTD ;
+        ns2:endMonth "36"^^xsd:integer ;
+        ns2:leadPartner ns4:brox ;
+        ns2:next ns4:wp6 ;
+        ns2:personMonths "59.0"^^xsd:float ;
+        ns2:previous ns4:wp4 ;
+        ns2:startMonth "3"^^xsd:integer ;
+        ns2:workpackageNumber "5"^^xsd:integer ;
+        a ns2:WorkPackage ;
+        rdfs:label "Spatial Linked Data in the Supply Chain"@en .

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <foaf:Document rdf:about="Welcome"
+    ns1:menuLabel="Geospatial Data and the Semantic Web"
+    rdfs:label="Geospatial Data and the Semantic Web">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns1:content rdf:datatype="&sysont;Markdown">Geospatial data or geographic information is the data that identifies a geographic location of natural or constructed features and boundaries on the Earth (e.g. oceans, buildings, countries, rivers, etc). Geographical knowledge bases are among the largest in existence and have high importance in a variety of everyday applications. The data can be mapped and often manipulated with Geographic Information Systems (GIS), however the integration of external data sets into these systems is time-consuming and complex. GeoKnow will provide the necessary tools and methods to easily integrate and process data across a wide range of data sources on the web of data.
+
+GeoKnow EU project (2013-2015) has contributed with the GeoKnow Generator which is a stack of tools for bringing geospatial data to the Web of Data. These software tools are available in the Debian repository of the &lt;a href="http://stack.linkeddata.org/" target="_blanc"&gt;Linked Data Stack&lt;/a&gt;. Together with these tools GeoKnow team has developed the Generator Workbench which is an unified interface for using these tools. This workbench offers several enterprise-ready features such as authentication and data access authorisation. An online demo of the Workbench and GeoKnow Generator tools is available &lt;a href="http://generator.geoknow.eu" target="_blanc"&gt;here&lt;/a&gt;.
+
+&lt;p&gt;
+&lt;img src="http://geoknow.eu/site/images/lifecycle2.png" width="600px" /&gt;
+&lt;/p&gt;
+
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;Tool Name &lt;/td&gt;&lt;td&gt; Description &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/LIMES-Service" target="_blanc"&gt;Limes-Service&lt;/a&gt;&lt;/td&gt;&lt;td&gt;  A link discovery framework for the Web of Data, supports 13 similarity measures of which six are geo-spatial distance measures. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/Facete2" target="_blanc"&gt;Facete&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Facete2 is a web-based faceted browsing of RDF geospatial data. It provides domain independent faceted filtering capabilities operating directly on SPARQL &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/AKSW/Sparqlify" target="_blanc"&gt;Sparqlify&lt;/a&gt;&lt;/td&gt;&lt;td&gt; A SPARQL-to-SQL rewriter that enables one to define RDF views on relational databases and query them with SPARQL.  &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/DEER" target="_blanc"&gt;Deer&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Enrichment framework to extract implicit geospatial information through dereferencing, interlinking and Natural Language Processing. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/TripleGeo-Service" target="_blanc"&gt;TripleGeo-Service&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Transforms geometries from ESRI shapefiles, GML, KML, INSPIRE-aligned datasets for seven Data Themes, and several geospatially-enabled DBMSs (i.e. PostGIS, MySQL, Oracle spatial, etc.)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/FAGI-gis" target="_blanc"&gt;FAGI-gis&lt;/a&gt;&lt;/td&gt;&lt;td&gt; FAGI is an application for fusing geospatial RDF data. It offers a set of 15 fusion actions that is constantly extended, as well as functionality for fusing property chains and for fusing m-to-n properties. It is available as user interactive mode and as batch processing tool, allowing the fusion of millions of triples in a few minutes. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/Mappify" target="_blanc"&gt;Mappify&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Mappify is a web application to easily create map views displaying concept based points of interest. It enables users to easily create own individual map views combining the presentation of different custom points of interest on one map and exporting those views in HTML/JavaScript snippets &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/Coevolution" target="_blanc"&gt;Coevolution&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Evolution and Repair &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/GEM" target="_blanc"&gt;GEM&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Geospatial-semantic Exploration on the Mobile devices&lt;/td&gt;&lt;/tr&gt;
+&lt;td&gt;&lt;a href="" target="_blanc"&gt;RDFUnit&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Quality assessment tool assessment tool following the Test-Driven Data Quality Methodology. It can be used as command line tool, via the RDFUnit web interface or as library component in other applications&lt;/td&gt;&lt;/tr&gt;
+&lt;td&gt;&lt;a href="https://github.com/openlink/virtuoso-opensource" target="_blanc"&gt; Virtuoso&lt;/a&gt;&lt;/td&gt;&lt;td&gt;The Virtuoso triple store improves performance by employing column-store technology, dynamic query optimisation, adaptive caching of joins, optimised graph processing and cluster/cloud scalability. Moreover, it supports handling of points, and several complex operations involving geometries (e.g. lines, polygons). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/Coevolution" target="_blanc"&gt;Coevolution&lt;/a&gt;&lt;/td&gt;&lt;td&gt; A service for managing private and public dataset provenance and evolution &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href="https://github.com/GeoKnow/ESTA-LD" target="_blanc"&gt;ESTA-LD&lt;/a&gt;&lt;/td&gt;&lt;td&gt; Exploratory Spatio-Temporal Analysis of Linked Data based on the Data Cube Vocabulary standard &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</ns1:content>
+    <ns9:content xmlns:ns9="ns1:">
+Geospatial data or geographic information is the data that identifies a geographic location of natural or constructed features and boundaries on the Earth (e.g. oceans, buildings, countries, rivers, etc). Geographical knowledge bases are among the largest in existence and have high importance in a variety of everyday applications. The data can be mapped and often manipulated with Geographic Information Systems (GIS), however the integration of external data sets into these systems is time-consuming and complex. GeoKnow will provide the necessary tools and methods to easily integrate and process data across a wide range of data sources on the web of data.
+
+GeoKnow has contributed with the GeoKnow Generator which is a stack of tools for brignging geospatial data to the Web of Data. These software tools are availeble in the debian repository of the Linked Data Stack. </ns9:content>
+  </foaf:Document>
+
+</rdf:RDF>

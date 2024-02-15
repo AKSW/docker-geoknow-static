@@ -1,0 +1,33 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t3-2 dct:description "A problem in the field of geospatial data management is the requirement to combine two or more geospatial data sets that have been derived from different sources. The same geographic feature can have a different RDF representations, different metadata and differing geometry associated with it. The goal of this task is to automate fusing based on semantic links in the maps. While in WP2 we are developing the infrastructure for fusing geospatial data sets, this task has the goal to develop the algorithms necessary for fusing different RDF representations of maps. Here, we will develop a module (1) to map different RDF representations of geometry; (2) to merge different metadata associated with spatial objects; (3) to combine different representations of relations between spatial objects."@en ;
+         dct:identifier "T3.2" ;
+         ns2:next ns4:t3-3 ;
+         ns2:partner ns4:ATH ;
+         ns2:previous ns4:t3-1 ;
+         ns2:taskNumber "2"^^xsd:integer ;
+         ns2:workpackage ns4:wp3 ;
+         a ns2:Task ;
+         rdfs:label "Spatial knowledge fusing"@en .

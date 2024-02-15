@@ -1,0 +1,32 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t6-4 dct:description "In Task 6.4, we will define and conduct a use case scenario based on testing procedures to validate motive-centered queries. We will setup concrete test cases based on example intelligence queries based on the scenario. After execution of these test cases, we evaluate the respective test results by means of quality and quantity measures to check the correctness, completeness and performance of the developed prototype. Additionally, we will conduct usability tests for the developed search concepts described in deliverable D6.3.2. The tests will be integrated in the current web portal environment, in particular ab-in-den-urlaub.de (smaller German use case) and later on travel24.com (larger international use case). The test users are common customers. They should have already indicated (by the origin Google search or after giving textual input) that they would benefit from motive-based search in the field of application limited by the current features of the prototype. Using A/B testing this user segment will get answers to their queries by the current implementation or by the new search process. About 2-3% of the users will be used for this bucket test. The aim of those tests will be to evaluate whether Unister can benefit from motive based search and spatial data integration. The following metrics will be applied: conversion rate, transaction volume, time to PoS, etc. It is assumed that 1.000 customers per test will lead to a profound result."@en ;
+         dct:identifier "T6.4" ;
+         ns2:partner ns4:Ontos, ns4:Unister ;
+         ns2:previous ns4:t6-3 ;
+         ns2:taskNumber "4"^^xsd:integer ;
+         ns2:workpackage ns4:wp6 ;
+         a ns2:Task ;
+         rdfs:label "Evaluation and testing of the search prototype"@en .

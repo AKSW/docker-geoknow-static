@@ -1,0 +1,33 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t5-1 dct:description """In this task we will develop techniques for making the information stored in RFID chips identifiable and accessible on the Web of Data. We will devise an identification scheme for RFID information and map the currently prevalent data models in supply chain applications to RDF. The mapping should be provenance preserving and accommodate temporal information and relationships. A particular aspect tackled in this task is the capturing and representation of access control rules.
+Deliverable 1. Supply chain information model."""@en ;
+         dct:identifier "T5.1" ;
+         ns2:next ns4:t5-2 ;
+         ns2:partner ns4:InfAI, ns4:brox ;
+         ns2:taskNumber "1"^^xsd:integer ;
+         ns2:workpackage ns4:wp5 ;
+         a ns2:Task ;
+         rdfs:label "Connecting RFID Data to the Web of Data"@en .

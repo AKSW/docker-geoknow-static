@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:WorkPackage rdf:about="wp6"
+    dct:identifier="WP6">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">One use case scenario for the interlinking and fusing spatial data mentioned above is Linked Travel/Tourism Data. Thereby, effectiveness and efficiency of the customer relationship depends on knowledge that, a company progressively gains about its former and future customer as well as the properties of relevant regions. Thus, incorporating large open data sets on geospatial knowledge and interlinking them with travel/tourism data will provide new global knowledge about customersâ€™ needs and regionsâ€™ properties to a company.
+
+Imagine, for example, a big travel web-portal having millions of customer records containing invoice addresses and booked vacations. Besides this, there are many open data sets in the domain of travel mostly provided by local organisations. Moreover, social networks like Facebook, Foursquare, Google Latitude and many more incorporate geographically locatable user profiles that contain information about attended events and visited places. These profiles are interconnected via social networks and Friend of a Friend (FOAF) profiles. Putting all this information together enables the company to provide user-centered applications to answer queries like:
+* What kind of new products is my customer likely willing to buy? After receiving the permission of the user to use his data, this query can be answered integrating travel profiles (most likely check-ins) from social networks and matching the recently travelled regions or top-n favorite locations of his peer-groups.
+*  Which geographical regions are most suitable for a special event? Combining the information from GeoNames (places, population), DBpedia (generic background information, such as relations to important companies or flood incidents), internal customer data (sales data) and open event data (e.g. cultural or sports events) leads to a geographical density allocation of target groups that can be analysed. Especially establishing new places like hotels can be optimizied this way.
+* Thus, the company&apos;s goal would be to integrate their internal data with the open linked data by interlinking their geographical data as well as exploiting social network structures of the open data sets.</ns9:abstract>
+    <dct:description xml:lang="en">One use case scenario for the interlinking and fusing spatial data mentioned above is Linked Travel/Tourism Data. Thereby, effectiveness and efficiency of the customer relationship depends on knowledge that, a company progressively gains about its former and future customer as well as the properties of relevant regions. Thus, incorporating large open data sets on geospatial knowledge and interlinking them with travel/tourism data will provide new global knowledge about customersâ€™ needs and regionsâ€™ properties to a company.
+
+Imagine, for example, a big travel web-portal having millions of customer records containing invoice addresses and booked vacations. Besides this, there are many open data sets in the domain of travel mostly provided by local organisations. Moreover, social networks like Facebook, Foursquare, Google Latitude and many more incorporate geographically locatable user profiles that contain information about attended events and visited places. These profiles are interconnected via social networks and Friend of a Friend (FOAF) profiles. Putting all this information together enables the company to provide user-centered applications to answer queries like:
+&lt;ul&gt;&lt;li&gt;What kind of new products is my customer likely willing to buy? After receiving the permission of the user to use his data, this query can be answered integrating travel profiles (most likely check-ins) from social networks and matching the recently travelled regions or top-n favorite locations of his peer-groups.&lt;/li&gt;
+&lt;li&gt;Which geographical regions are most suitable for a special event? Combining the information from GeoNames (places, population), DBpedia (generic background information, such as relations to important companies or flood incidents), internal customer data (sales data) and open event data (e.g. cultural or sports events) leads to a geographical density allocation of target groups that can be analysed. Especially establishing new places like hotels can be optimizied this way.&lt;/li&gt;
+&lt;li&gt;Thus, the company&apos;s goal would be to integrate their internal data with the open linked data by interlinking their geographical data as well as exploiting social network structures of the open data sets.&lt;/li&gt;&lt;/ul&gt;</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Unister" />
+    <ns2:next rdf:resource="wp7" />
+    <ns2:personMonths rdf:datatype="&xsd;float">76.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp5" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">3</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">6</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">GeoKnow for E-Commerce</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:Task rdf:about="t6-1"
+    dct:identifier="T6.1">
+    <dct:description xml:lang="en">The first step in this task will be the identification and selection of relevant data partitions of existing real CRM systems and travel/tourism portals (e.g. ab-in-den-urlaub.de, travel24.com, fluege.de). Here, we will investigate internal data as well as its interlinkability with other open data sets as geospatial and spatial social network data. We will develop retrieval methods and tools and aggregate this data. Additionally, we will execute preparations and needed transformations on that data to ensure ease of integration with the GKS and efficient processing of the data. A part of this will be the transformation into an RDF representation. In Task 6.1 a proprietary CRM, developed in-house at Unister, is used. Because Unister has to deal with many different and changing vendors of travel/tourism services and products, this special CRM takes into account the many different CRM data structures provided by these vendors. It is more appropriate to identify it as system of CRMs.</dct:description>
+    <ns2:next rdf:resource="t6-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Customer data selection, retrieval and preparation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t6-2"
+    dct:identifier="T6.2">
+    <dct:description xml:lang="en">In this task, we will design integrative components based on the results and algorithms of WP2 and WP3. Therefore, a component model will be realised that adapts solutions from the mentioned work packages to the travel use case. Fusing and interlinking components will use the transformed tourism data from Task 6 and integrate it with geospatial open linked data. In parallel, we will develop user-friendly and simple UI components for business intelligence interfaces as well as reporting views to visualize analysis results. This subtask builds on WP4 and adapts metaphors and concepts developed in that WP. Concretely, the usability and potential benefit for users provided by the integration of the map visualization of points-of-interests in conjunction with the widget for facet selection will be evaluated. Lightweight widgets that visualize data snippets, such as styled fact boxes about touristic locations are also in the scope of this task.</dct:description>
+    <ns2:next rdf:resource="t6-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Design integration methods and develop prototype to utilize RTD results</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t6-3"
+    dct:identifier="T6.3">
+    <dct:description xml:lang="en">This task will focus on the aggregation and transformation of integrated linked geospatial data into search-optimized data structures such as optimized index structures. These data structures can then be used by applications to run enhanced queries focussing on topics and customer motives on the integrated GKS data. Motive and topic based search is a new search paradigm, combining elements of information retrieval and questions answering. Such searches are particularly important in the e-Commerce domain, where customers search for parameters of products and services. An example of a motive and topic based search is “winter holiday with culture and mountains”, which could return travel options offering hiking as well as cultural highlights during the winter school holidays in the region of the searcher. Such searches require substantial (spatial) background knowledge as it can be only provided by the Web of Data.
+The current state of the art is focused on querying data statically. Only by using the Linked Data paradigm it is possible to derive data from the Data graph dynamically. However, this approach would cause a large effort if the data is not organized well (state explosion during derivation). Therefore, the research task is located on the research area where ontology-based question answering overlaps with heuristic-based derivation as well as statistic-based IR.</dct:description>
+    <ns2:next rdf:resource="t6-4" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Motive and topic-based Search Infrastructure and UI interfaces</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t6-4"
+    dct:identifier="T6.4">
+    <dct:description xml:lang="en">In Task 6.4, we will define and conduct a use case scenario based on testing procedures to validate motive-centered queries. We will setup concrete test cases based on example intelligence queries based on the scenario. After execution of these test cases, we evaluate the respective test results by means of quality and quantity measures to check the correctness, completeness and performance of the developed prototype. Additionally, we will conduct usability tests for the developed search concepts described in deliverable D6.3.2. The tests will be integrated in the current web portal environment, in particular ab-in-den-urlaub.de (smaller German use case) and later on travel24.com (larger international use case). The test users are common customers. They should have already indicated (by the origin Google search or after giving textual input) that they would benefit from motive-based search in the field of application limited by the current features of the prototype. Using A/B testing this user segment will get answers to their queries by the current implementation or by the new search process. About 2-3% of the users will be used for this bucket test. The aim of those tests will be to evaluate whether Unister can benefit from motive based search and spatial data integration. The following metrics will be applied: conversion rate, transaction volume, time to PoS, etc. It is assumed that 1.000 customers per test will lead to a profound result.</dct:description>
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Evaluation and testing of the search prototype</rdfs:label>
+  </ns2:Task>
+
+  <ns2:WorkPackage rdf:about="wp5"
+    dct:identifier="WP5">
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">This use case will target the Enterprise Data Integration domain and adapt the GeoKnow platform for facilitation the establishment of an Enterprise Data Intra- and Extranet. BROX, OpenLink and Ontos are with Eccenca, Virtuoso and Ontos Miner developing products for Enterprise Data integration. In this use case, we will refine and advance the integration of the GeoKnow platform in such a way, that Enterprise users can use the resulting technology stack to establish spatial linked data driven supply chains as a crystallization point for the establishment of a Data Extranet in addition to existing document-oriented Extranets.
+
+One of the most promising application areas for spatial Linked Data is supporting the supply chain. Large manufacturers such as for example Volkswagen or Daimler have many thousands of suppliers rendering the information flows accompanying these supply chains (or networks) a real Big Data challenge. Facilitating the information flows between these suppliers and accompanying flows of material and product logistics is one of the most challenging and most promising areas of Enterprise Data Integration.
+
+The aim of this use case will be to give enterprises collaborating in supply chains a unified spatial view on the logistics in the supply chain. In order to realize this aim, we will connect information stored in RFIDs to the Data Web. As a result, the flow of material and accompanying information can be observed in real-time, bottlenecks can be identified early, media breaks in the information flows are minimized and supply chains can be organized at an unprecedented level of dynamicity and efficiency.
+
+The use case will be implemented and prototypically deployed at a large scale supply chain environment in close collaboration with BROXâ€™s partner Schnellecke. Schnellecke has more than 14,000 employees at more than 40 company sites worldwide, Schnellecke contributes to the corporate success of its customers through the development and implementation of tailored logistics solutions and optimized value-added chains. Schnellecke is the worldwide leading value-adding logistics service provider in the automotive industry (cf. letter of support in the Appendix). The following two screenshots illustrate the vision pursued in this use case: employing a combination of map and faceted-browsing (left), logistics managers are empowered to track and supervise supply chain flows in real time. Each item and geo-location is equipped with additional structured data (right), which is obtained from a SPARQL endpoint. The information displayed on such a supply chain dashboard is aggregated from a number of different information sources. Background knowledge from the Data Web (such LinkedGeoData) is used to enrich the information obtained from the SPARQL endpoints of the partners in the supply chain as well as for providing a spatial context. Such sources include in particular LinkedGeoData (e.g. providing precise road network, land use and building information), Geonames (providing information on administrative regions) and DBpedia, which contains, for example, information about train stations, airports and other facilities. Also, data obtained from Open Governmental Data sources can be useful here.                                                                                           </ns9:abstract>
+    <dct:description xml:lang="en">This use case will target the Enterprise Data Integration domain and adapt the GeoKnow platform for facilitation the establishment of an Enterprise Data Intra- and Extranet. BROX, OpenLink and Ontos are with Eccenca, Virtuoso and Ontos Miner developing products for Enterprise Data integration. In this use case, we will refine and advance the integration of the GeoKnow platform in such a way, that Enterprise users can use the resulting technology stack to establish spatial linked data driven supply chains as a crystallization point for the establishment of a Data Extranet in addition to existing document-oriented Extranets.
+
+One of the most promising application areas for spatial Linked Data is supporting the supply chain. Large manufacturers such as for example Volkswagen or Daimler have many thousands of suppliers rendering the information flows accompanying these supply chains (or networks) a real Big Data challenge. Facilitating the information flows between these suppliers and accompanying flows of material and product logistics is one of the most challenging and most promising areas of Enterprise Data Integration.
+
+The aim of this use case will be to give enterprises collaborating in supply chains a unified spatial view on the logistics in the supply chain. In order to realize this aim, we will connect information stored in RFIDs to the Data Web. As a result, the flow of material and accompanying information can be observed in real-time, bottlenecks can be identified early, media breaks in the information flows are minimized and supply chains can be organized at an unprecedented level of dynamicity and efficiency.
+
+The use case will be implemented and prototypically deployed at a large scale supply chain environment in close collaboration with BROXâ€™s partner Schnellecke. Schnellecke has more than 14,000 employees at more than 40 company sites worldwide, Schnellecke contributes to the corporate success of its customers through the development and implementation of tailored logistics solutions and optimized value-added chains. Schnellecke is the worldwide leading value-adding logistics service provider in the automotive industry (cf. letter of support in the Appendix). The following two screenshots illustrate the vision pursued in this use case: employing a combination of map and faceted-browsing (left), logistics managers are empowered to track and supervise supply chain flows in real time. Each item and geo-location is equipped with additional structured data (right), which is obtained from a SPARQL endpoint. The information displayed on such a supply chain dashboard is aggregated from a number of different information sources. Background knowledge from the Data Web (such LinkedGeoData) is used to enrich the information obtained from the SPARQL endpoints of the partners in the supply chain as well as for providing a spatial context. Such sources include in particular LinkedGeoData (e.g. providing precise road network, land use and building information), Geonames (providing information on administrative regions) and DBpedia, which contains, for example, information about train stations, airports and other facilities. Also, data obtained from Open Governmental Data sources can be useful here.                                                                                           </dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="brox" />
+    <ns2:next rdf:resource="wp6" />
+    <ns2:personMonths rdf:datatype="&xsd;float">59.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp4" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">3</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">5</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">Spatial Linked Data in the Supply Chain</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:WorkPackage rdf:about="wp7"
+    dct:identifier="WP7">
+    <ns9:abstract xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+&lt;ul&gt;&lt;li&gt;Informing the community of the state-of-the-art developments taking place in the field,&lt;/li&gt;
+&lt;li&gt;Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.&lt;/li&gt;&lt;/ul&gt;</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">The general aim of this work package is to establish a worldwide focal point for academic and industry parties interested in contributing to or taking advantage of the novel Spatial Linked Data methodologies and components, which will emerge in the project. In particular our activities will be targeted at:
+* Informing the community of the state-of-the-art developments taking place in the field,
+* Disseminating the project results in order to foster community building and to create an impact on industry and research in Europe and worldwide.</ns9:abstract>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="wp8" />
+    <ns2:personMonths rdf:datatype="&xsd;float">29.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp6" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">7</ns2:workpackageNumber>
+    <rdfs:label>Dissemination, community building, exploitation &amp; standards</rdfs:label>
+    <rdfs:label xml:lang="en">Dissemination, community building, exploitation &amp; standards</rdfs:label>
+  </ns2:WorkPackage>
+
+</rdf:RDF>

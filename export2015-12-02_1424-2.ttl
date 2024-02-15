@@ -1,0 +1,34 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t1-2 dct:description """This task is devoted to specifying the GeoKnow architecture and the detailed design of the GeoKnow Generator. Scalability, extensibility and flexibility shall be achieved by employing Service Oriented Knowledge Utilities (SOKU) in order to develop next generation GKS. Components of the system will be building blocks developed in individual work packages WP2-4, such as the semantics based geo-spatial information management subsystem (WP2), spatial knowledge fusing and integration methods (WP3), the development of user interfaces for spatial-semantic browsing and authoring (WP4). The developed components will be integrated within this task. While the common technical requirements will be one major input for the system design, other major sources will be the developed use cases and end user requirements as well as interoperability standards.
+The system design defines clear interfaces between the individual components. It will be based on existing standards and will provide a modular plug’n’serve structure and shall be able to accommodate REST components and JavaScript user interface widgets. The architecture will be centred around the OWL/RDF-statement paradigm, which enables interactions between components on different conceptual levels, such as triples, classes and instances, ontologies, logical axioms etc."""^^sysont:Markdown ;
+         dct:identifier "T1.2" ;
+         ns2:next ns4:t1-3 ;
+         ns2:partner ns4:ATH, ns4:InfAI, ns4:Ontos, ns4:Unister ;
+         ns2:previous ns4:t1-1 ;
+         ns2:taskNumber "2"^^xsd:integer ;
+         ns2:workpackage ns4:wp1 ;
+         a ns2:Task ;
+         rdfs:label "GeoKnow architecture & system design"@en .

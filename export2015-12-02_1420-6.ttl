@@ -1,0 +1,47 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:wp6 <dcterms:abstract> """One use case scenario for the interlinking and fusing spatial data mentioned above is Linked Travel/Tourism Data. Thereby, effectiveness and efficiency of the customer relationship depends on knowledge that, a company progressively gains about its former and future customer as well as the properties of relevant regions. Thus, incorporating large open data sets on geospatial knowledge and interlinking them with travel/tourism data will provide new global knowledge about customersâ€™ needs and regionsâ€™ properties to a company.
+
+Imagine, for example, a big travel web-portal having millions of customer records containing invoice addresses and booked vacations. Besides this, there are many open data sets in the domain of travel mostly provided by local organisations. Moreover, social networks like Facebook, Foursquare, Google Latitude and many more incorporate geographically locatable user profiles that contain information about attended events and visited places. These profiles are interconnected via social networks and Friend of a Friend (FOAF) profiles. Putting all this information together enables the company to provide user-centered applications to answer queries like:
+* What kind of new products is my customer likely willing to buy? After receiving the permission of the user to use his data, this query can be answered integrating travel profiles (most likely check-ins) from social networks and matching the recently travelled regions or top-n favorite locations of his peer-groups.
+*  Which geographical regions are most suitable for a special event? Combining the information from GeoNames (places, population), DBpedia (generic background information, such as relations to important companies or flood incidents), internal customer data (sales data) and open event data (e.g. cultural or sports events) leads to a geographical density allocation of target groups that can be analysed. Especially establishing new places like hotels can be optimizied this way.
+* Thus, the company's goal would be to integrate their internal data with the open linked data by interlinking their geographical data as well as exploiting social network structures of the open data sets."""@en ;
+        dct:description """One use case scenario for the interlinking and fusing spatial data mentioned above is Linked Travel/Tourism Data. Thereby, effectiveness and efficiency of the customer relationship depends on knowledge that, a company progressively gains about its former and future customer as well as the properties of relevant regions. Thus, incorporating large open data sets on geospatial knowledge and interlinking them with travel/tourism data will provide new global knowledge about customersâ€™ needs and regionsâ€™ properties to a company.
+
+Imagine, for example, a big travel web-portal having millions of customer records containing invoice addresses and booked vacations. Besides this, there are many open data sets in the domain of travel mostly provided by local organisations. Moreover, social networks like Facebook, Foursquare, Google Latitude and many more incorporate geographically locatable user profiles that contain information about attended events and visited places. These profiles are interconnected via social networks and Friend of a Friend (FOAF) profiles. Putting all this information together enables the company to provide user-centered applications to answer queries like:
+<ul><li>What kind of new products is my customer likely willing to buy? After receiving the permission of the user to use his data, this query can be answered integrating travel profiles (most likely check-ins) from social networks and matching the recently travelled regions or top-n favorite locations of his peer-groups.</li>
+<li>Which geographical regions are most suitable for a special event? Combining the information from GeoNames (places, population), DBpedia (generic background information, such as relations to important companies or flood incidents), internal customer data (sales data) and open event data (e.g. cultural or sports events) leads to a geographical density allocation of target groups that can be analysed. Especially establishing new places like hotels can be optimizied this way.</li>
+<li>Thus, the company's goal would be to integrate their internal data with the open linked data by interlinking their geographical data as well as exploiting social network structures of the open data sets.</li></ul>"""@en ;
+        dct:identifier "WP6" ;
+        ns2:activity ns2:RTD ;
+        ns2:endMonth "36"^^xsd:integer ;
+        ns2:leadPartner ns4:Unister ;
+        ns2:next ns4:wp7 ;
+        ns2:personMonths "76.0"^^xsd:float ;
+        ns2:previous ns4:wp5 ;
+        ns2:startMonth "3"^^xsd:integer ;
+        ns2:workpackageNumber "6"^^xsd:integer ;
+        a ns2:WorkPackage ;
+        rdfs:label "GeoKnow for E-Commerce"@en .

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Partner rdf:about="OpenLink"
+    ns8:abbreviation="OpenLink"
+    dct:identifier="OpenLink">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns7:country rdf:resource="http://dbpedia.org/resourceUnited_Kingdom" />
+    <dct:abstract>OpenLink Software is a United Kingdom SME founded in 1992. It operates a business development and sales subsidiary in the United States. Most product development takes place within the EU, across the UK, Netherlands and Bulgaria. The company is a leading provider of high-performance, scalable, and secure technology covering: data access drivers, data virtualization middleware; native database management (RDBMS or RDF based Graph Store), and enterprise collaboration.</dct:abstract>
+    <dct:description rdf:datatype="&sysont;Markdown">OpenLink Software is a leading provider of universal data access middleware. Its products include a suite of high-performance data access drivers for ODBC, JDBC and ADO.NET, the Virtuoso Hybrid Data Server for SQL, XML, and RDF, and the OpenLink Data Spaces suite of distributed collaborative applications.
+
+OpenLink has extensive experience in scalable triple stores by extending its native Virtuoso database/SQL engine incorporate SPARQL query processing. Virtuoso offers both a native triple store and RDF middleware in a single product offering. It offers management and creation of physical and virtual triples in conjunctions with the ability to declaratively produce RDF views of SQL Data (SQL to RDF mapping). The OpenLink Data Spaces (ODS) application suite offers an integrated platform for managing and integrating blogs, wikis, RSS/Atom feeds, discussion forums and more. Naturally, all these applications are SIOC, SKOS, FOAF, and AtomOWL enabled. OpenLink has hands on experience at both the applications and data management levels within the Semantic Web technology realm.
+
+OpenLink is a W3C member, an active participant in the W3C Semantic Web Education and Outreach (SWEO) Interest Group, a key member of the Linking Open Data project, and timeless supporter of the Open Data Movement. OpenLink presently hosts the DBpedia service. OpenLink leverages its experience with local and distributed query processing, SQL and SPARQL query optimization, RDF store and heterogeneous data integration technologies in developing an integrated database backbone for the project. OpenLink has extensive experience in combining RDF and Web 2.0 technologies. All data managed by the company’s ODS applications is also possible to query via SPARQL within the SIOC, FOAF and SKOS vocabularies.</dct:description>
+    <rdf:type rdf:resource="&foaf;Organization" />
+    <rdfs:label xml:lang="en">OpenLink Software Ltd</rdfs:label>
+    <foaf:homepage rdf:resource="http://www.openlinksw.com" />
+    <foaf:logo rdf:resource="http://lh5.ggpht.com/-WQ3phpuwwPI/UD3V-9So-kI/AAAAAAAABJ8/NcEo99UHgvQ/OpenLink.png" />
+  </ns2:Partner>
+
+  <ns2:Project rdf:about="GeoKnow"
+    ns8:abbreviation="GeoKnow"
+    rdfs:label="GeoKnow">
+    <ns8:abstract xml:lang="en">The advent of the Data Web demonstrates how Web technologies can be employed to integrate dispersed, heterogeneous information. Most information - be it the extent of habitats of aquatic species, data warehouses of E-Commerce systems or offerings of the bakery shop next door - has a directly or indirectly associated spatial dimension. Integrating and efficiently using information with such a spatial dimension on the Web poses very particular challenges. 
+First, we have to combine and reason about spatial and semantic features that use different vocabularies and representation techniques. Second, the wealth of pre-existing overlapping and complementary information sources in the spatial domain demands information management able to deal with billions of facts in a scalable manner. Third, only by dramatically lowering the entrance barriers extra value can be generated through the involvement of thousands of non-expert end users in authoring, curation and assessment. Within GeoKnow, we will tackle these challenges and spur the transition from islands of isolated Geographic Information Systems (GIS) to a Web of interlinked Geographic Knowledge Systems (GKS).
+We will validate our approach in two complementary application scenarios: (1) spatial-semantic collaboration in biological scientific communities involving citizen scientists and (2) spatial-semantic travel E-Commerce data management.
+GeoKnow will substantially contribute to the evolution of the Web from a medium for information exchange to a medium for (spatial) knowledge integration, e.g. the number of spatial LOD sources will increase from 31to &gt;1,000. GeoKnow will help to realize network effects by increasing quality and coherence of the spatial Data Web, e.g. the data-linkage ratio will increase from 5% to 20%. For enterprises, the GeoKnow Generator will provide a cost-efficient way to integrate a variety of heterogeneous information sources within an Enterprise Data Intranet.</ns8:abstract>
+    <ns2:endDate rdf:datatype="&xsd;date">2015-12-31</ns2:endDate>
+    <ns2:fullname>GeoKnow - Making the Web an Exploratory for Geospatial Knowledge</ns2:fullname>
+    <ns2:grantAgreementNumber rdf:datatype="&xsd;integer">318159</ns2:grantAgreementNumber>
+    <ns2:istProjectnumber rdf:datatype="&xsd;integer">1234567890</ns2:istProjectnumber>
+    <ns2:objectives rdf:resource="http://purl.org/research-fp/homepage/objectives" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="&ns5;Institute_Mihajlo_Pupin" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:startDate rdf:datatype="&xsd;date">2012-12-01</ns2:startDate>
+    <rdf:type rdf:resource="&foaf;Project" />
+    <foaf:homepage rdf:resource="http://geoknow.eu" />
+  </ns2:Project>
+
+  <ns2:Task rdf:about="t1-3"
+    dct:identifier="T1.3">
+    <dct:description xml:lang="en">A benchmarking strategy will be developed and the platforms performance will be evaluated, based on well-established benchmarks, such as the Sequoia 2000 and Paradise benchmark3. In particular, the benchmark will be based on OSM and Natural Earth datasets, complemented by synthetic social data from the LOD2 Social Intelligence Benchmark. Further, to perform benchmarking tests that can deal with very large datasets, we will develop a suitable infrastructure by (1) evaluating existing high-performant and compact GIS storage formats for adoption of best practices (e.g. Oracle Spatial, PostGIS), (2) developing a suitable process for extract-transform-load of geo data, including coordinate transforms and schema mapping (e.g. GDAL/OGR, GeoKettle). This is in itself a matter of benchmarking but also enables running benchmarks targeting diverse geospatial workloads such as localized, potentially high frequency accesses for route planning and querying; as well as aggregation queries that span large portions of the map and join with thematic data.
+
+The Sequoia workload is an initial checklist item for validating functionality and relative performance as opposed to existing GIS. Geoknow will move beyond the state of the art by using and further refining the geospatial benchmark built in LOD2, emulating heavy drill-down style online access patterns and accessing large volumes of thematic data. An example of this is zooming on a map shaded according to population density or real estate prices. Beyond this, benchmarking will look at more complex analytics such as deciding locations of services based on population distribution, competitive services, road network capacity and the like. The last category is not expressible as a query but requires database resident application logic.
+
+Further, to compare GKS and its components with other state of the art systems, we will use the SEALS project benchmarking services. This will provide us with an objective evaluation of the GKS and its components.
+
+Benchmarks will be done early, so as to provide constant tracking of performance.
+Virtuoso&apos;s relational GIS functionality will be compared to PostGIS using the full scale OSM data and typical OSM queries and updates. Further, an RDF version of this will be run on Virtuoso and its performance will be compared to the performance attained with OSM in relational form on Virtuoso.</dct:description>
+    <ns2:next rdf:resource="t1-4" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t1-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp1" />
+    <rdfs:label xml:lang="en">Performance Benchmarking and Evaluation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t1-4"
+    dct:identifier="T1.4">
+    <dct:description xml:lang="en">During this task individual components developed in WP2-4 will be integrated into a ready to use GKS Generator and associated APIs in order to enable communities of practice to create domain specific GKSes with a minimum of effort. For example, chosing between map providers (e.g. OpenStreetMap, Google Maps) will require no coding, and there will be a widget library, based on the use-cases, with some widgets (e.g. for place searches, ratings, images and facts) being usable across multiple domains. A plug-in system will ensure that new styles and behaviour can be added in case none of the provided components turn out to be applicable.
+Thus, this task consists of the following subtasks:
+Integration of User Interface Components. The goal of this sub-task is to provide rich GUIs for social-aware GKS applications. 
+Integration of GeoKnow Generator and API. The objective of this sub-task is to integrate the GeoKnow components developed in WP2-4 and the Web 2.0 toolkit into a ready to use GKS Generator with underlying service APIs. Within this task we will perform software integration activities together with WP2-4. 
+Testing, documentation &amp; tutorials. This sub-task will take the end-user and technical feedbacks resulting from WP5-6 into account to improve the final GeoKnow Generator and provide documentation and tutorials. The documentation of the evaluation should provide both quantitative and qualitative results, through real-life trials of the proposed work. A number of alpha and beta testing results will be documented by this task, which will be conducted after the delivery of each module and provide quantitative results.</dct:description>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t1-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp1" />
+    <rdfs:label xml:lang="en">Component integration and GeoKnow Generator</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-3"
+    dct:identifier="T2.3">
+    <dct:description xml:lang="en">This task implements query optimization based on deep sampling with geospatial predicates. As a query plan is being constructed by the optimizer, it is evaluated on a randomly sampled subset of the data, thus detecting selectivity of joins with real data instead of precomputed statistics. This is robust in the face of data correlations, whereas reliance on precomputed statistics assumes independence of attributes, which is rarely the case. The task applies these methods specially to ordering of geospatial joins and to join order decisions involving spatial and non-spatial criteria.</dct:description>
+    <ns2:next rdf:resource="t2-4" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t2-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">Geospatial query optimization</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-4"
+    dct:identifier="T2.4">
+    <dct:description xml:lang="en">This task implements reorganization of data according to geospatial locality so that thematic data ­­­pertaining to geospatially close geometries is nearly always clustered together in physical storage. Since geospatial access patterns are most often geo-local, it makes sense to also reflect this locality in the placement of thematic data. Technically, this consists of renumbering IRI identifiers according to the geospatial attributes that depend on them through one or more reference steps.
+This further means that in a cluster system the feature and its thematic content will be co-located on the same server. The benefits will be much higher retrieval speed due to more localized access patters, thus deriving full benefit from vectored execution and column store techniques that rely on locality for performance.</dct:description>
+    <ns2:next rdf:resource="t2-5" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t2-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">Geospatial clustering</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-5"
+    dct:identifier="T2.5"
+    rdfs:label="Distributed geospatial capabilities">
+    <dct:description rdf:datatype="&sysont;Markdown">This task optimizes the results of tasks 2.3 and 2.4 for cluster deployments. In practice this means logic for equal distribution of data and load over a cluster as well as logic for optimizing message flow between cluster nodes, e.g. longer queries will use larger message sizes since interconnect throughput is more efficiently utilized and latency avoided if sending larger units of work. We expect large volumes of data both in terms of the number of geographical points, and in terms of the volume of thematic information associated to these (e.g. time series of instrument readings). For such volumes to be handled in interactive time, a scale-out approach is needed.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:previous rdf:resource="t2-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-6"
+    dct:identifier="T2.6"
+    rdfs:label="Geospatial problem solving">
+    <dct:description rdf:datatype="&sysont;Markdown">This task implements complex application logic co-resident with the data, drawing on caching of intermediate results in the query engine. Thus, very complex algorithms can be run efficiently of subbsets of the data without going to the persistent data representation. This is especially useful for running expensive computation with a high order of complexity, e.g. route planning, in principle NP complete, on relatively small subsets of the database. This will also find application in map comparison/conflation.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t2-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t3-1"
+    dct:identifier="T3.1">
+    <dct:description xml:lang="en">One goal of this task is to develop algorithms and services to map spatial (datasets with geometric information) and non-spatial RDF data. For example, often datasets only contain implicit geographic references, such as city names. However, this information alone is not sufficient for unambiguously identifying geographic entities.A further goal is therefore to provide a tool assisted way of providing context information and parameterizing transformations for the generation of high quality RDF datasets. The following components will be developed:
+a component to lift implicit geographical references in data sets. Given an RDF data set with implicit geographical references, the module will automatically detect potential types of geospatial information and the relations to existing vocabularies. For instance, a dataset containing address information could be automatically geocoded using a service such as Nominatim. The address information itself can be identified either by the used vocabulary or by crosschecking the used values against reference lists of e.g. country, city and street names. Additionally, this enables interlinking with spatial datasets, such as GeoNames, DBpedia or LinkedGeoData. The component will be manually evaluated (a) using information retrieval measures, such as precision and recall, and (b) by comparison with reference datasets. For large datasets, sampling methods will be applied. 
+a component to configure transformation of data in conventional formats into RDF using existing vocabularies. Based on the detected implicit information,the user will be able to specify the type, format, granularity and amount of data being transformed. 
+a distributed system for continuously processing a large amount of conventional data into an RDF representation based on the configuration. The challenge here is the expected amount of data to be processed. Since the original data sets remain unchanged and evolve over time it is required to be able to quickly re-process large amount of RDF data. This component will be evaluated for its performance, such as by measuring the process time for different datasets and dataset sizes.</dct:description>
+    <ns2:next rdf:resource="t3-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp3" />
+    <rdfs:label xml:lang="en">Spatial knowledge mapping</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t6-3"
+    dct:identifier="T6.3">
+    <dct:description xml:lang="en">This task will focus on the aggregation and transformation of integrated linked geospatial data into search-optimized data structures such as optimized index structures. These data structures can then be used by applications to run enhanced queries focussing on topics and customer motives on the integrated GKS data. Motive and topic based search is a new search paradigm, combining elements of information retrieval and questions answering. Such searches are particularly important in the e-Commerce domain, where customers search for parameters of products and services. An example of a motive and topic based search is “winter holiday with culture and mountains”, which could return travel options offering hiking as well as cultural highlights during the winter school holidays in the region of the searcher. Such searches require substantial (spatial) background knowledge as it can be only provided by the Web of Data.
+The current state of the art is focused on querying data statically. Only by using the Linked Data paradigm it is possible to derive data from the Data graph dynamically. However, this approach would cause a large effort if the data is not organized well (state explosion during derivation). Therefore, the research task is located on the research area where ontology-based question answering overlaps with heuristic-based derivation as well as statistic-based IR.</dct:description>
+    <ns2:next rdf:resource="t6-4" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:previous rdf:resource="t6-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp6" />
+    <rdfs:label xml:lang="en">Motive and topic-based Search Infrastructure and UI interfaces</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-1"
+    dct:identifier="T7.1">
+    <dct:description xml:lang="en">The first focus of WP7 is the dissemination of the project results supported by community building and cross-fertilisation activities.
+Both the industrial and the academic partners will play active roles in dissemination. For the use case partners, the case studies will form a key part of the dissemination activity. For the academic partners, consultancy to business and contractual research and development will be a significant part of dissemination, besides the normal channels of publications, conference papers, workshop organisation, and educational courses at university sites.
+The dissemination programme foresees a multi-channel dissemination approach. First, the project outcomes will be disseminated by use of publicly available channels – such as workshop, conference, magazine, and journal publications. These will be aimed at sharing the results of the project with the scientific community, particularly the European, but also the international scientific community, to encourage their incorporation into the work of other scientists and technologists. Complementing this, there will be a programme of papers and articles in IT, Web Technologies and general business publications, and presentations at geo data, library, IT and business expos and conferences (e.g. LinkedDataPlanet, KM Europe, Dublin Core Metadata Initiative (DCMI), Digital Curation Conference, CeBIT or Systems for telecommunication and IT) particularly targeted at the European Union and associated countries. We envisage that the innovative technology required for building spatial Linked Data applications, and the resulting open GeoKnow Generator, will be of great interest to both SMEs and large businesses alike.
+We will put a special focus on demonstration activities in different forms of the possibilities that the newly developed technologies will offer. Target audience will be relevant industry and research actors whose main focus is the development of data and knowledge management systems, new scalable collaboration paradigms and their combination with information retrieval. The participation of globally acting partners (Ontos, OpenLink, BROX) will provide an additional, global dimension to our dissemination programme, in particular with Unister and Openlink as a globally acting E-Commerce and software vendor with offices in the US, and major European countries. Taking advantage of its worldwide unique information infrastructure, with products for enterprise information management, Unister can provide current research and technological solutions developed by the GeoKnow partners an ideal environment for demonstrating their real added value. The GeoKnow consortium will organize two end-user and industry days, one for each of the two case study applications corporate spatial business intelligence and e-science.
+The project will set up and maintain an external Web site, which will function as a project dissemination tool, as a training portal and as a server demonstrating some of the project results. The Web site will itself be based on a Semantic Wiki system, so that project participants and interested users can register and be notified when new deliverables or software become available. Within the limitations imposed by appropriate protection of intellectual property, all major scientific results of this project will be made available to the research community, whilst the GeoKnow and components will be published as open source to facilitate take-up. Outcomes will be made available in a non-proprietary format. All open source components published will be extensively documented by means of textual documents and screencasts of professional quality illustrating how to download, install and operate the components in question. Documentation manuals and screencasts will be specifically identified as project deliverables and prominently published on the project&apos;s web site. The project will exploit modern, social-networking dissemination channels such as Weblogs, Newsfeeds (RSS), organize GeoKnow groups in social networks such as LinkedIn, XING, Facebook, Twine. The project will register its web site under the .eu domain for at least 2 years after the natural contractual end of the project and commit to keeping the web site alive for that period of time. It will link to other relevant EC and EC sponsored sites. 
+The project will also deliver one or more web-based showcases and grant the EC the right to use the showcase(s) for its own dissemination and awareness activities. After the completion of the project. The Showcase(s) will feature a meaningful subset (software, data, etc.) of the functionality characterising the project demonstrator(s) arrived at, along with relevant copyright notices and contact information, and suitable installation aids and run-time interfaces.
+GeoKnow will create a Researcher Early Access Group that will be open to participation to scientists working in related fields. Members of this group will get early access to project infrastructure and will be invited to experiment with GeoKnow components. This will both verify the generality of the plug-in interfaces and encourage take-up of the project results. The scientific communities that will be targeted by our inter-disciplinary community building efforts are very diverse and hitherto largely independent of each other: Geodata Management, Semantic Web and knowledge technologies, machine learning, e-science, and Big Data Management. 
+In the first month of the project, the GeoKnow consortium will create a fact sheet suitable for Web publishing. The Fact Sheet will outline the project&apos;s rationale and objectives, specify its technical baseline and intended target groups and application domains, and detail intermediate and final outputs. The facts-sheet will be maintained and updated until the end of the project; this will be documented in the regular dissemination reports. It will be published on the website and related EC sponsored websites controlled by the consortium. Related to the fact sheet, the consortium will issue press releases within one month of the start of the project (prepared by InfAI and Ontos, translation and dissemination by all partners). The press releases will target the local or national press of all partners. The press release will describe the goals of the project in simple, jargon free language and whenever possible highlight the benefits to the region/country and the importance of the local partner being part of a EU consortium. A PDF version of the collection of such press releases will be listed as part of Deliverable D7.1.1. 
+If suitable, the consortium may commit to radio and TV appearances. If this is feasible audio/video clips will also be submitted as additional deliverables.
+Additionally, we plan to promote cross-fertilisation through inter-disciplinary workshops, organized alongside major conferences in the respective research fields. The GeoKnow partners representing each of these diverse research areas will be responsible to promote the project results within the respective communities. The project partners undertake – when invited – to contribute to and participate in focused concertation actions, themed seminars or special interest groups.</dct:description>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="t7-2" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="&ns5;Institute_Mihajlo_Pupin" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Dissemination, community building and cross-fertilisation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-2"
+    dct:identifier="T7.2">
+    <dct:description xml:lang="en">The two case studies and the industrial and end-user community partners will drive the exploitation. Their task is to extend the research activities by promoting and supporting the exploitation of the results along with take-up activities related to the perspective applications. The majority of the project results will be made available as open source and the open source exploitation strategy will describe how to leverage the potential of such an open source initiative.
+The pillars of GeoKnow exploitation strategy are: tracking important technical and commercial developments in geo data management, semantic web, Web 2.0 as well as geospatial e-science and enterprise applications; analyzing the market sector(s) where the results can be applied and possibly licensed commercially; identifying the results of GeoKnow that are exploitable: particularly the GeoKnow Generator, some of the components and the innovative applications developed within the use cases; and identifying the appropriate distribution channels (including open source community) to exploit the different results of the project.
+The major outcome of this work package will be the GeoKnow Exploitation Plan, which will include a list of opportunities that arise from GeoKnow scientific and technical achievements and a detailed analysis of benefit and impact for the GeoKnow consortium as a whole as well as for the results of individual participants. The prestige of both the industrial partners and the use case partners makes the GeoKnow Consortium an international partnership.</dct:description>
+    <ns2:leadPartner rdf:resource="Unister" />
+    <ns2:next rdf:resource="t7-3" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t7-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Exploitation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-3"
+    dct:identifier="T7.3">
+    <dct:description xml:lang="en">GeoKnow will actively participate in appropriate standards bodies, specifically the W3C and/or DC. Such participation is twofold; on the one hand to ensure that established and emerging standards are taken into account appropriately in the GeoKnow project and, on the other hand, to seek to influence standardisation bodies. Concrete standardisation activities pursued in the context of GeoKnow are listed in section B1.9.4. The consortium represented by its W3C members (OpenLink and Ontos) will together with other actors establish a W3C Spatial Linked Data interest group in order to found a nucleolus for the growing user community of Spatial Data Web technologies.</dct:description>
+    <ns2:next rdf:resource="t7-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t7-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Standardisation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-5"
+    dct:identifier="T7.5">
+    <dct:description xml:lang="en">All publications even partially funded by the project will prominently acknowledge the grant under which the project is funded. Every publication will be tagged with "GEOKNOW-318159". Details of all publications even partially funded by the project shall be uploaded to some specific and agreed Bibliographic social networks such as http://www.citeulike.org/, http://www.mendeley.com/ or http://www.bibsonomy.org/. Whenever such Bibliographic social networks allow for a catalogue of publications to be retrieved by tag or published as an RSS feed, the project&apos;s web site should expose such a catalogue.
+All presentation materials for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license. All open source software produced by the consortium shall be published on publicly available software repositories such as http://sourceforge.net/, http://github.com/ or http://osor.eu. All data sets for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license.</dct:description>
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t7-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Publishing directives</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-4"
+    dct:identifier="T8.4">
+    <dct:description xml:lang="en">Establishing and maintaining of mailing lists according to the needs of the project Establishing and maintaining of project website/document repository.</dct:description>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:next rdf:resource="t8-5" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t8-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Internal communication</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t8-6"
+    dct:identifier="T8.6">
+    <dct:description xml:lang="en">Establishing a quality assurance procedure that every deliverable has to undergo before submission to the EC.</dct:description>
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t8-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp8" />
+    <rdfs:label xml:lang="en">Quality assurance of deliverables</rdfs:label>
+  </ns2:Task>
+
+  <ns2:WorkPackage rdf:about="wp2"
+    dct:identifier="WP2">
+    <ns9:abstract xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <dct:description rdf:datatype="&sysont;Markdown">The main objectives covered in this workpackage are: 
+
+* _Adaptive data organization_: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+* _Integration of complex geospatial algorithms into the database kernel_: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+* _GeoSPARQL standard compliance_: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+* _Data modelling with possible engine-level support for provenance or versioning_: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata. 
+
+Along with these objectives we will ensure fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">35</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="wp3" />
+    <ns2:personMonths rdf:datatype="&xsd;float">59.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp1" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">2</ns2:workpackageNumber>
+    <rdfs:label>Semantics based geospatial data management</rdfs:label>
+  </ns2:WorkPackage>
+
+  <rdf:Description rdf:about="&ns2;Task1-3">
+    <ns2:next rdf:resource="&ns2;Task1-4" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="&ns2;Task1-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp1" />
+    <rdfs:comment xml:lang="en">A benchmarking strategy will be developed and the platforms performance will be evaluated, based on well-established benchmarks, such as the Sequoia 2000 and Paradise benchmark3. In particular, the benchmark will be based on OSM and Natural Earth datasets, complemented by synthetic social data from the LOD2 Social Intelligence Benchmark. Further, to perform benchmarking tests that can deal with very large datasets, we will develop a suitable infrastructure by (1) evaluating existing high-performant and compact GIS storage formats for adoption of best practices (e.g. Oracle Spatial, PostGIS), (2) developing a suitable process for extract-transform-load of geo data, including coordinate transforms and schema mapping (e.g. GDAL/OGR, GeoKettle). This is in itself a matter of benchmarking but also enables running benchmarks targeting diverse geospatial workloads such as localized, potentially high frequency accesses for route planning and querying; as well as aggregation queries that span large portions of the map and join with thematic data.
+
+The Sequoia workload is an initial checklist item for validating functionality and relative performance as opposed to existing GIS. Geoknow will move beyond the state of the art by using and further refining the geospatial benchmark built in LOD2, emulating heavy drill-down style online access patterns and accessing large volumes of thematic data. An example of this is zooming on a map shaded according to population density or real estate prices. Beyond this, benchmarking will look at more complex analytics such as deciding locations of services based on population distribution, competitive services, road network capacity and the like. The last category is not expressible as a query but requires database resident application logic.
+
+Further, to compare GKS and its components with other state of the art systems, we will use the SEALS project benchmarking services. This will provide us with an objective evaluation of the GKS and its components.
+
+Benchmarks will be done early, so as to provide constant tracking of performance.
+Virtuoso&apos;s relational GIS functionality will be compared to PostGIS using the full scale OSM data and typical OSM queries and updates. Further, an RDF version of this will be run on Virtuoso and its performance will be compared to the performance attained with OSM in relational form on Virtuoso.</rdfs:comment>
+    <rdfs:label xml:lang="en">Performance Benchmarking and Evaluation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="&ns2;Task7-1">
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="&ns2;Task7-2" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp7" />
+    <rdfs:comment xml:lang="en">The first focus of WP7 is the dissemination of the project results supported by community building and cross-fertilisation activities.
+Both the industrial and the academic partners will play active roles in dissemination. For the use case partners, the case studies will form a key part of the dissemination activity. For the academic partners, consultancy to business and contractual research and development will be a significant part of dissemination, besides the normal channels of publications, conference papers, workshop organisation, and educational courses at university sites.
+The dissemination programme foresees a multi-channel dissemination approach. First, the project outcomes will be disseminated by use of publicly available channels â€“ such as workshop, conference, magazine, and journal publications. These will be aimed at sharing the results of the project with the scientific community, particularly the European, but also the international scientific community, to encourage their incorporation into the work of other scientists and technologists. Complementing this, there will be a programme of papers and articles in IT, Web Technologies and general business publications, and presentations at geo data, library, IT and business expos and conferences (e.g. LinkedDataPlanet, KM Europe, Dublin Core Metadata Initiative (DCMI), Digital Curation Conference, CeBIT or Systems for telecommunication and IT) particularly targeted at the European Union and associated countries. We envisage that the innovative technology required for building spatial Linked Data applications, and the resulting open GeoKnow Generator, will be of great interest to both SMEs and large businesses alike.
+We will put a special focus on demonstration activities in different forms of the possibilities that the newly developed technologies will offer. Target audience will be relevant industry and research actors whose main focus is the development of data and knowledge management systems, new scalable collaboration paradigms and their combination with information retrieval. The participation of globally acting partners (Ontos, OpenLink, BROX) will provide an additional, global dimension to our dissemination programme, in particular with Unister and Openlink as a globally acting E-Commerce and software vendor with offices in the US, and major European countries. Taking advantage of its worldwide unique information infrastructure, with products for enterprise information management, Unister can provide current research and technological solutions developed by the GeoKnow partners an ideal environment for demonstrating their real added value. The GeoKnow consortium will organize two end-user and industry days, one for each of the two case study applications corporate spatial business intelligence and e-science.
+The project will set up and maintain an external Web site, which will function as a project dissemination tool, as a training portal and as a server demonstrating some of the project results. The Web site will itself be based on a Semantic Wiki system, so that project participants and interested users can register and be notified when new deliverables or software become available. Within the limitations imposed by appropriate protection of intellectual property, all major scientific results of this project will be made available to the research community, whilst the GeoKnow and components will be published as open source to facilitate take-up. Outcomes will be made available in a non-proprietary format. All open source components published will be extensively documented by means of textual documents and screencasts of professional quality illustrating how to download, install and operate the components in question. Documentation manuals and screencasts will be specifically identified as project deliverables and prominently published on the project&apos;s web site. The project will exploit modern, social-networking dissemination channels such as Weblogs, Newsfeeds (RSS), organize GeoKnow groups in social networks such as LinkedIn, XING, Facebook, Twine. The project will register its web site under the .eu domain for at least 2 years after the natural contractual end of the project and commit to keeping the web site alive for that period of time. It will link to other relevant EC and EC sponsored sites. 
+The project will also deliver one or more web-based showcases and grant the EC the right to use the showcase(s) for its own dissemination and awareness activities. After the completion of the project. The Showcase(s) will feature a meaningful subset (software, data, etc.) of the functionality characterising the project demonstrator(s) arrived at, along with relevant copyright notices and contact information, and suitable installation aids and run-time interfaces.
+GeoKnow will create a Researcher Early Access Group that will be open to participation to scientists working in related fields. Members of this group will get early access to project infrastructure and will be invited to experiment with GeoKnow components. This will both verify the generality of the plug-in interfaces and encourage take-up of the project results. The scientific communities that will be targeted by our inter-disciplinary community building efforts are very diverse and hitherto largely independent of each other: Geodata Management, Semantic Web and knowledge technologies, machine learning, e-science, and Big Data Management. 
+In the first month of the project, the GeoKnow consortium will create a fact sheet suitable for Web publishing. The Fact Sheet will outline the project&apos;s rationale and objectives, specify its technical baseline and intended target groups and application domains, and detail intermediate and final outputs. The facts-sheet will be maintained and updated until the end of the project; this will be documented in the regular dissemination reports. It will be published on the website and related EC sponsored websites controlled by the consortium. Related to the fact sheet, the consortium will issue press releases within one month of the start of the project (prepared by InfAI and Ontos, translation and dissemination by all partners). The press releases will target the local or national press of all partners. The press release will describe the goals of the project in simple, jargon free language and whenever possible highlight the benefits to the region/country and the importance of the local partner being part of a EU consortium. A PDF version of the collection of such press releases will be listed as part of Deliverable D7.1.1. 
+If suitable, the consortium may commit to radio and TV appearances. If this is feasible audio/video clips will also be submitted as additional deliverables.
+Additionally, we plan to promote cross-fertilisation through inter-disciplinary workshops, organized alongside major conferences in the respective research fields. The GeoKnow partners representing each of these diverse research areas will be responsible to promote the project results within the respective communities. The project partners undertake â€“ when invited â€“ to contribute to and participate in focused concertation actions, themed seminars or special interest groups.</rdfs:comment>
+    <rdfs:label xml:lang="en">Dissemination, community building and cross-fertilisation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="&ns2;Task7-3">
+    <ns2:next rdf:resource="&ns2;Task7-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="&ns2;Task7-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp7" />
+    <rdfs:comment xml:lang="en">GeoKnow will actively participate in appropriate standards bodies, specifically the W3C and/or DC. Such participation is twofold; on the one hand to ensure that established and emerging standards are taken into account appropriately in the GeoKnow project and, on the other hand, to seek to influence standardisation bodies. Concrete standardisation activities pursued in the context of GeoKnow are listed in section B1.9.4. The consortium represented by its W3C members (OpenLink and Ontos) will together with other actors establish a W3C Spatial Linked Data interest group in order to found a nucleolus for the growing user community of Spatial Data Web technologies.</rdfs:comment>
+    <rdfs:label xml:lang="en">Standardisation</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="&ns2;Task7-5">
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="&ns2;Task7-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp7" />
+    <rdfs:comment xml:lang="en">All publications even partially funded by the project will prominently acknowledge the grant under which the project is funded. Every publication will be tagged with "GEOKNOW-318159". Details of all publications even partially funded by the project shall be uploaded to some specific and agreed Bibliographic social networks such as http://www.citeulike.org/, http://www.mendeley.com/ or http://www.bibsonomy.org/. Whenever such Bibliographic social networks allow for a catalogue of publications to be retrieved by tag or published as an RSS feed, the project&apos;s web site should expose such a catalogue.
+All presentation materials for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license. All open source software produced by the consortium shall be published on publicly available software repositories such as http://sourceforge.net/, http://github.com/ or http://osor.eu. All data sets for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license.</rdfs:comment>
+    <rdfs:label xml:lang="en">Publishing directives</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="&ns2;Task8-4">
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:next rdf:resource="&ns2;Task8-5" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="&ns2;Task8-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp8" />
+    <rdfs:comment xml:lang="en">Establishing and maintaining of mailing lists according to the needs of the project Establishing and maintaining of project website/document repository.</rdfs:comment>
+    <rdfs:label xml:lang="en">Internal communication</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="&ns2;Task8-6">
+    <ns2:leadPartner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="&ns2;Task8-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="&ns2;wp8" />
+    <rdfs:comment xml:lang="en">Establishing a quality assurance procedure that every deliverable has to undergo before submission to the EC.</rdfs:comment>
+    <rdfs:label xml:lang="en">Quality assurance of deliverables</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>

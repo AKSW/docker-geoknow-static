@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t4-1"
+    dct:identifier="T4.1">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">In this task we will develop a reusable components for visualizing and exploring spatial content. The component will consist of a library of different spatial-semantic visualization and exploration components:
+A slippy map, which allows users to zoom-to and select a certain geographical area. The slippy map will be based on existing Web map implementations, such as for example OpenLayers1 from Open Source Geospatial Foundation. The implementation will be extended to allow an overlaying of the displayed raster maps with additional information represented in vector formats, such as various types of markers, polygons and curves. 
+A facet filtering component, which displays (a hierarchy of) semantic facets detected in conjunction with the selected map area. Only facets, which have respective adhering objects in the selected area as well as the overall number of objects adhering to each facet in the selected area will be displayed. Depending on the facet type, different selection widgets will allow to specify eligible facet-constraints, e.g date and number ranges and enumeration of facet values.
+A result view, which lists in addition to markers and regions on the map the retrieved objects adhering to the selected facets. For each individual object in the result set, its properties can be displayed in a configurable way. It will be possible to define templates for the visual presentation of certain spatial objects, e.g. train stations, cities, parks etc. Based on existing vocabularies such templates will display semantic information in a customizable and domain specific way. 
+The components’ usability will be evaluated in the context of their integration into the portals of the project partners, as described in WP5 and WP6. For this reason, we do not plan to evaluate the usability of the widgets “on their own”, as this will be covered by the respective reports. The evaluation findings will be considered for further developments and improvements of the components.</dct:description>
+    <ns2:next rdf:resource="t4-2" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp4" />
+    <rdfs:label xml:lang="en">Spatial-semantic visualization and exploration</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Deliverable rdf:about="d4-1-1"
+    dct:identifier="D4.1.1">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">1</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">12</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t4-1" />
+    <rdfs:label xml:lang="en">Initial release spatial-semantic exploration component</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D4.1.1_Initial_release_spatial_semantic_exploration_component_public.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Deliverable rdf:about="d4-1-2"
+    dct:identifier="D4.1.2">
+    <ns2:deliverableNature rdf:resource="&ns2;Prototype" />
+    <ns2:deliverableNumber rdf:datatype="&xsd;integer">2</ns2:deliverableNumber>
+    <ns2:deliveryDate rdf:datatype="&xsd;integer">26</ns2:deliveryDate>
+    <ns2:disseminationLevel rdf:resource="&ns2;PU" />
+    <ns2:task rdf:resource="t4-1" />
+    <rdfs:label xml:lang="en">Final Release Spatial-Semantic Exploration Component</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://svn.aksw.org/projects/GeoKnow/Public/D4.1.2_Final_release_spatial_semantic_exploration_component.pdf" />
+  </ns2:Deliverable>
+
+  <ns2:Task rdf:about="t4-2"
+    dct:identifier="T4.2">
+    <dct:description xml:lang="en">In this task, we will develop two components for the authoring and curation of spatial-semantic content. Firstly, we will specify a spatial-semantic widget interface, which will allow the creation of small reusable interface components for the creation of domain-specific user-interfaces. The widgets will be RDFa annotated HTML fragments together with JavaScript and CSS code. This will allow one to reuse them in various development environments, as for instance J2EE, LAMP, and Dot.Net. The widget interface definition will contain a number of event handlers, style classes, JavaScript functions, which concrete implementations must support. Widgets should be composeable out of existing smaller ones. For example, a widget for creating train stations, could be composed out of widgets for selecting a certain location and ones for representing object type, associating train lines etc. As part of this task we will develop a library of reusable widgets and common utilities.
+In order to enable the curation of spatial-semantic knowledge, we will develop an interface allowing to curate (i.e. annotation or modification) single spatial objects or complete sets of spatial objects. The curation of sets of objects will start with a search and faceted-refinement. Subsequently, all retrieved spatial entities can be updated in a single step thus mimicking data cleansing tools from the database and ETL world.</dct:description>
+    <ns2:next rdf:resource="t4-3" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t4-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp4" />
+    <rdfs:label xml:lang="en">Adaptive spatial-semantic authoring and curation</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

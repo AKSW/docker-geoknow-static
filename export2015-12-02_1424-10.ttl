@@ -1,0 +1,34 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t2-6 dct:description "This task implements complex application logic co-resident with the data, drawing on caching of intermediate results in the query engine. Thus, very complex algorithms can be run efficiently of subbsets of the data without going to the persistent data representation. This is especially useful for running expensive computation with a high order of complexity, e.g. route planning, in principle NP complete, on relatively small subsets of the database. This will also find application in map comparison/conflation."^^sysont:Markdown ;
+         dct:identifier "T2.6" ;
+         ns2:leadPartner ns4:OpenLink ;
+         ns2:next ns4:t2-6 ;
+         ns2:partner ns4:brox ;
+         ns2:previous ns4:t2-5 ;
+         ns2:taskNumber "6"^^xsd:integer ;
+         ns2:workpackage ns4:wp2 ;
+         a ns2:Task ;
+         rdfs:label "Geospatial problem solving" .

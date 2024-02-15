@@ -1,0 +1,34 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t4-2 dct:description """In this task, we will develop two components for the authoring and curation of spatial-semantic content. Firstly, we will specify a spatial-semantic widget interface, which will allow the creation of small reusable interface components for the creation of domain-specific user-interfaces. The widgets will be RDFa annotated HTML fragments together with JavaScript and CSS code. This will allow one to reuse them in various development environments, as for instance J2EE, LAMP, and Dot.Net. The widget interface definition will contain a number of event handlers, style classes, JavaScript functions, which concrete implementations must support. Widgets should be composeable out of existing smaller ones. For example, a widget for creating train stations, could be composed out of widgets for selecting a certain location and ones for representing object type, associating train lines etc. As part of this task we will develop a library of reusable widgets and common utilities.
+In order to enable the curation of spatial-semantic knowledge, we will develop an interface allowing to curate (i.e. annotation or modification) single spatial objects or complete sets of spatial objects. The curation of sets of objects will start with a search and faceted-refinement. Subsequently, all retrieved spatial entities can be updated in a single step thus mimicking data cleansing tools from the database and ETL world."""@en ;
+         dct:identifier "T4.2" ;
+         ns2:next ns4:t4-3 ;
+         ns2:partner ns4:InfAI ;
+         ns2:previous ns4:t4-1 ;
+         ns2:taskNumber "2"^^xsd:integer ;
+         ns2:workpackage ns4:wp4 ;
+         a ns2:Task ;
+         rdfs:label "Adaptive spatial-semantic authoring and curation"@en .

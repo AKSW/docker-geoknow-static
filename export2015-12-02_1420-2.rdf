@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:WorkPackage rdf:about="wp2"
+    dct:identifier="WP2">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns9:abstract xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <ns9:abstract xml:lang="en"
+      xmlns:ns9="dcterms:">*  Adaptive data organization: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+*  Integration of complex geospatial algorithms into the database kernel: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+*  GeoSPARQL standard compliance: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+*  Data modelling with possible engine-level support for provenance or versioning: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata.  Along with these objectives we will ensure: 
+*  Fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</ns9:abstract>
+    <dct:description rdf:datatype="&sysont;Markdown">The main objectives covered in this workpackage are: 
+
+* _Adaptive data organization_: Geospatial operations exhibit a high degree of locality in access which may be translated into physical data layout by clustering identifiers of geometries and their thematic content by geospatial location. This means that data access patterns will be local, resulting in improved CPU-memory traffic patterns and in decreased inter-node communication on clusters.
+* _Integration of complex geospatial algorithms into the database kernel_: Examples of these would be route planning or map comparison/conflation. These typically involve graph-like traversal of linked structures, e.g. road network with highly local and highly repetitive access patterns, thus benefiting from a special memory-based data representation for often reused intermediate results.
+* _GeoSPARQL standard compliance_: The existing implementation is very close to GeoSPARQL, thus this is mostly a matter of renaming functions and predicates.
+* _Data modelling with possible engine-level support for provenance or versioning_: We expect such meta-information to be necessary in a heterogeneous melting pot of geodata. 
+
+Along with these objectives we will ensure fast searching, retrieval and display of the spatial data over the web. This involves different zoom levels, both in a spatial sense and in a semantic sense, i.e. hierarchical searches based on e.g. tourism taxonomies, depending on the use cases. Accurate query cost estimation is a key for this functionality, along with possible reuse of intermediate results.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">35</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="wp3" />
+    <ns2:personMonths rdf:datatype="&xsd;float">59.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp1" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">2</ns2:workpackageNumber>
+    <rdfs:label>Semantics based geospatial data management</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:Task rdf:about="t2-1"
+    dct:identifier="T2.1">
+    <dct:description xml:lang="en">This task reviews the current state of the art in geospatial and semantic data management concerning performance, scaling, expressiveness, as well as conformance with de facto and de jure standards (Open Geospatial Consortium, ISO TC211, W3C, INSPIRE Directive).First, we will examine currently available standards to embed spatial representations in RDF (e.g. RDFID Geo, GeoRDF, GML, GeoRSS, KML). Second, we will document and analyze the support of existing semantic repositories for the aforementioned spatial representations. Third, we will design and execute analytical benchmarks to compare the performance and real-world relevance of current semantic repositories toFLOSS and proprietary geospatial databases (e.g. PostGIS, Oracle Spatial). Specifically, we will use Open Street Map data as a very large data source, and typical geospatial queries performed by the OSM community as workloads. Our findings will establish a baseline for evaluating performance and scaling attributes of current approaches, and provide quantitative metrics for evaluating the performance of prototypes produced later in the project.</dct:description>
+    <ns2:next rdf:resource="t2-2" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">1</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">State of the Art in geospatial and semantic data management</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-2"
+    dct:identifier="T2.2">
+    <dct:description xml:lang="en">This task implements ETL flows for importing data from external GIS.  The GIS may be accessed via Virtuoso SQL federation, RDB-RDF mapping tools, such as Sparqlify, or web services or by simple file loading from a staging area. The goal is to make import of diversely standards compliant and diversely modelled geodata as nearly automatic as possible. Thereby possible workflows for dealing with updates on the source datasets will be analysed. For example, updates on small datasets may be published as files containing the complete new version of the dataset in monthly intervals. In contrast, providers of large datasets, such as OpenStreetMap, additionally publish files with minutely incremental changes. Alternatively, datasets may for instance already be published in SPARQL endpoints. This analysis will from a basis for the establishment of update processes that serve use cases of the project. In the process, performance of the Virtuoso GIS implementation will be tested and improvement targets identified.</dct:description>
+    <ns2:next rdf:resource="t2-3" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:previous rdf:resource="t2-1" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">2</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">Integration with external geospatial databases</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-3"
+    dct:identifier="T2.3">
+    <dct:description xml:lang="en">This task implements query optimization based on deep sampling with geospatial predicates. As a query plan is being constructed by the optimizer, it is evaluated on a randomly sampled subset of the data, thus detecting selectivity of joins with real data instead of precomputed statistics. This is robust in the face of data correlations, whereas reliance on precomputed statistics assumes independence of attributes, which is rarely the case. The task applies these methods specially to ordering of geospatial joins and to join order decisions involving spatial and non-spatial criteria.</dct:description>
+    <ns2:next rdf:resource="t2-4" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t2-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">Geospatial query optimization</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-4"
+    dct:identifier="T2.4">
+    <dct:description xml:lang="en">This task implements reorganization of data according to geospatial locality so that thematic data ­­­pertaining to geospatially close geometries is nearly always clustered together in physical storage. Since geospatial access patterns are most often geo-local, it makes sense to also reflect this locality in the placement of thematic data. Technically, this consists of renumbering IRI identifiers according to the geospatial attributes that depend on them through one or more reference steps.
+This further means that in a cluster system the feature and its thematic content will be co-located on the same server. The benefits will be much higher retrieval speed due to more localized access patters, thus deriving full benefit from vectored execution and column store techniques that rely on locality for performance.</dct:description>
+    <ns2:next rdf:resource="t2-5" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t2-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+    <rdfs:label xml:lang="en">Geospatial clustering</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-5"
+    dct:identifier="T2.5"
+    rdfs:label="Distributed geospatial capabilities">
+    <dct:description rdf:datatype="&sysont;Markdown">This task optimizes the results of tasks 2.3 and 2.4 for cluster deployments. In practice this means logic for equal distribution of data and load over a cluster as well as logic for optimizing message flow between cluster nodes, e.g. longer queries will use larger message sizes since interconnect throughput is more efficiently utilized and latency avoided if sending larger units of work. We expect large volumes of data both in terms of the number of geographical points, and in terms of the volume of thematic information associated to these (e.g. time series of instrument readings). For such volumes to be handled in interactive time, a scale-out approach is needed.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:previous rdf:resource="t2-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-6"
+    dct:identifier="T2.6"
+    rdfs:label="Geospatial problem solving">
+    <dct:description rdf:datatype="&sysont;Markdown">This task implements complex application logic co-resident with the data, drawing on caching of intermediate results in the query engine. Thus, very complex algorithms can be run efficiently of subbsets of the data without going to the persistent data representation. This is especially useful for running expensive computation with a high order of complexity, e.g. route planning, in principle NP complete, on relatively small subsets of the database. This will also find application in map comparison/conflation.</dct:description>
+    <ns2:leadPartner rdf:resource="OpenLink" />
+    <ns2:next rdf:resource="t2-6" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t2-5" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">6</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t2-7"
+    dct:identifier="T2.7"
+    rdfs:label="Exposing INSPIRE data as Linked Data">
+    <dct:description rdf:datatype="&sysont;Markdown">This task will provide technical solutions and tools to expose INSPIRE data and metadata as geospatial Linked Data. Our work will focus on providing automatic and semi-automatic tools to repurpose/reuse geospatial information from INSPIRE SDIs, which consists of: (a) exposing catalogue services through SPARQL endpoints, (b) on-the-fly and custom transformations of INSPIRE metadata as VoiD (vocabulary of Interlinked Documents) with support for standard vocabularies (e.g. GEMET), (c) on-the-fly and custom transformations of geospatial data sets as geospatial RDF, based on standard (e.g. INSPIRE Data Specifications), or custom data schemas.
+On a practical level, our contributions will be based on a stack of open source tools and technologies for SDIs (focusing on OSGeo projects), to promote uptake and provide real world opportunities for exploitation (e.g. degree server, GeoNetwork). Further, we will focus on a real world SDI providing INSPIRE compatible data for Greece (geodata.gov.gr).</dct:description>
+    <ns2:leadPartner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t2-6" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">7</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp2" />
+  </ns2:Task>
+
+  <ns2:WorkPackage rdf:about="wp1"
+    dct:identifier="WP1">
+    <dct:description rdf:datatype="&sysont;Markdown">This work package aims at: (1) specifying use cases and to collect end-user requirements from the application areas by consulting end user groups and other technology users; (2) identify technical requirements and constraints as well as interoperability standards to be adopted, (3) specify an architecture and system design for the GeoKnow Generator; (4) develop an early prototype of the GeoKnow Generator as an early proof of concept and (5) design and implement a continuous benchmarking system. Along with these objectives, we will ensure that the project addresses specific end user and industry needs; the GeoKnow technology is flexible and extensible to other domains; the development is in line with the major geo-spatial initiatives by leveraging on, complementing and not reduplicating work already done in this area; social networking approaches, such as for providing feedback on the data quality, correcting errors and adding facts, translations or links,are tightly integrated in the GeoKnow Generator in a generic manner; pre-existing technology developed by the project partners is harmonized. Relevant standards to be adopted shall be monitored under this WP. We will use iterative refinement processes, e.g. by re-assessing the requirements with the help of the end user communities. These will be adapted, if necessary.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">36</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Ontos" />
+    <ns2:next rdf:resource="wp2" />
+    <ns2:personMonths rdf:datatype="&xsd;float">109.0</ns2:personMonths>
+    <ns2:startMonth rdf:datatype="&xsd;integer">1</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">1</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">Requirements, Design, Benchmarking, Component Integration</rdfs:label>
+  </ns2:WorkPackage>
+
+  <ns2:WorkPackage rdf:about="wp3"
+    dct:identifier="WP3">
+    <dct:description xml:lang="en">Missing explicit quality indicators and links between publicly available data sets as well as the heterogeneity in granularity, origin and actuality of different data sets for similar geographic regions pose research challenges that will be tackled in this work package. Thus, we target the following objectives: (1) We develop self-configuring algorithms to interlink data sets with spatial dimensions. The results are new connections between previously not directly connected data sets sharing a set of commonly referred spatial objects. (2) We elaborate algorithms to fuse existing spatial RDF data sets. The result will be derived datasets with consistent representations of geometry and meta data of spatial objects. (3) We develop metrics to compare different maps and different regions of a map for their coverage of objects, density, divergence of geometry, pertinence of categories and topicality of meta data. (4) We elaborate methods and algorithms to aggregate consolidated information from volunteered geospatial data.</dct:description>
+    <ns2:activity rdf:resource="&ns2;RTD" />
+    <ns2:endMonth rdf:datatype="&xsd;integer">34</ns2:endMonth>
+    <ns2:leadPartner rdf:resource="Athena" />
+    <ns2:next rdf:resource="wp4" />
+    <ns2:personMonths rdf:datatype="&xsd;float">73.0</ns2:personMonths>
+    <ns2:previous rdf:resource="wp2" />
+    <ns2:startMonth rdf:datatype="&xsd;integer">2</ns2:startMonth>
+    <ns2:workpackageNumber rdf:datatype="&xsd;integer">3</ns2:workpackageNumber>
+    <rdfs:label xml:lang="en">Spatial knowledge aggregation, fusing &amp; quality assessment</rdfs:label>
+  </ns2:WorkPackage>
+
+</rdf:RDF>

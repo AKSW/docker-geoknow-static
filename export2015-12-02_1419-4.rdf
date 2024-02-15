@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <foaf:Document rdf:about="Dissemination"
+    rdfs:label="Dissemination">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <ns1:content rdf:datatype="&sysont;Markdown">&lt;div class="nav-sidelinks"&gt; &lt;ul&gt;
+&lt;li&gt;&lt;a href="http://geoknow.eu/PrintMaterial.html"&gt;Printed Material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://geoknow.eu/PressReleases.html"&gt;Press Releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://geoknow.eu/Presentations.html"&gt;Presentations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt; 
+
+
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;a href="http://svn.aksw.org/projects/GeoKnow/Public/GeoKnow-Handbook.pdf"&gt;GeoKnow Handbook &lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;Find the state of the art and the status of open geospatial
+data on the web. And met the Linked Data Stack as technical
+underpinning of GeoKnow and give a first presentation of the platform providing a light-weight integration of GeoKnow tools.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href="http://geoknow.eu/PrintMaterial.html"&gt;Printed Material&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;In GeoKnow we have produced material that can be printed and distributed in events where partners assist.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href="http://geoknow.eu/PressReleases.html"&gt;Press Releases&lt;/a&gt;&lt;/dt&gt;
+    &lt;dd&gt;For promoting the project we have created press releases for the different locations where consortium partners are present.&lt;/dd&gt;
+  &lt;dt&gt;&lt;a href="http://geoknow.eu/Presentations.html"&gt;Presentations&lt;/a&gt;&lt;/dt&gt;
+     &lt;dd&gt;Here you can find general project and research specific presentations by GeoKnow team.&lt;/dd&gt;
+&lt;/dl&gt;
+
+
+</ns1:content>
+  </foaf:Document>
+
+  <ns1:Navigation rdf:about="&ns4;Navigation/Main"
+    rdfs:label="Main Navigation">
+    <rdf:_1 rdf:resource="Project" />
+    <rdf:_2 rdf:resource="Consortium" />
+    <rdf:_3 rdf:resource="Dissemination" />
+    <rdf:_4 rdf:resource="Events" />
+    <rdf:_5 rdf:resource="Results" />
+  </ns1:Navigation>
+
+</rdf:RDF>

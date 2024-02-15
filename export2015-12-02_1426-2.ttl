@@ -1,0 +1,32 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t5-6 dct:description "This task will enable users to perform different operations and get insight into the state of the organizations supply chain by using mobile devices, thus improving productivity. The goal is to develop a mobile version of the consolidated spatial view developed in Task 5.3, to potentially replace some of the proprietary devices currently used in supply chain to significantly reduce costs, and to enable operational personnel involved in managing and executing logistics to make decisions and act on the go (optimize, prevent bottlenecks, etc.) by having real‐time access to the supply chain. For the purpose of testing and evaluation, the data from other tasks will be used, i.e. no additional data or testing will be needed from the partners. This task will build on Tasks 4.5 and 4.6 Evaluation and testing activities will be performed within Task 5.5 and the respective results documented in Deliverable 5.5."@en ;
+         dct:identifier "T5.6" ;
+         ns2:partner ns5:Institute_Mihajlo_Pupi, ns4:brox ;
+         ns2:previous ns4:t5-5 ;
+         ns2:taskNumber "6"^^xsd:integer ;
+         ns2:workpackage ns4:wp5 ;
+         a ns2:Task ;
+         rdfs:label "Mobile Supply Chain consolidated spatial view"@en .

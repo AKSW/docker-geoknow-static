@@ -1,0 +1,35 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:brox ns7:country <http://dbpedia.org/resourceGermany> ;
+         ns8:abbreviation "brox" ;
+         dct:abstract "Brox IT-Solutions (http://www.brox.de) was founded in 1998 and is headquartered in Hannover, Germany. Brox core competencies are supporting large enterprises in managing and evolving their IT infrastructure. " ;
+         dct:description """Brox initiated and is leading the Eclipse.org project SMILA (Unified information access architecture), which is the base platform for the 400M€ German THESEUS Project as well as EU funded projects under FP7. Brox, however, never received any funding from public research projects so far. Brox operates under the commercial open source business model and provides enterprise class SLAs for its SMILA distribution called “eccenca”. The name eccenca references to the term 'essence' which is what users of SMILA and eccenca are trying to extract and aggregate from large collections of unstructured data. With over 80% of enterprise information stored in unstructured formats, enterprises of the future will strive to provide 'just the essence' of information in order to achieve higher levels of process quality and productivity. Brox is privately held and funded by MBG, KfW and Volksbank. Key customers are Audi, Bombardier, Bosch, Credit Suisse, Daimler Benz, Deutsche Telecom, Dresdner Bank, TUI, Volkswagen and the UK based organization, Institute of Directors.
+
+Brox IT-Solutions is an engineering-driven organization thriving to become a truly global information access and semantic infrastructure provider. Our employees and collaborators are passionate about open source, dedicated to customer success, and committed to creating sustainable benefits for their customers based on the commercial open source software model. BROX has actively participated in large-scale R&D projects, such as the German national Theseus programme. BROX is active member of the Association of Data Quality Management. Brox employs more than 30 consultants and its RTD department comprises 5 employees led by Dr. Michael Hagstöm."""^^sysont:Markdown ;
+         dct:identifier "Brox" ;
+         a ns2:Partner, foaf:Organization ;
+         rdfs:label "brox IT-Solutions GmbH"@en ;
+         foaf:homepage <http://www.brox.de> ;
+         foaf:logo <http://www.geoknow.eu/site/images/logo-brox.png> .

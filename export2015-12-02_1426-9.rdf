@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Exported with the Erfurt API - http://aksw.org/Projects/Erfurt -->
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY sysont "http://ns.ontowiki.net/SysOnt/">
+  <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+  <!ENTITY sioc "http://rdfs.org/sioc/ns#">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+  <!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+  <!ENTITY dc "http://purl.org/dc/elements/1.1/">
+  <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#">
+  <!ENTITY ns0 "http://purl.org/net/vocab/2004/03/label#">
+  <!ENTITY ns1 "http://ns.ontowiki.net/SysOnt/Site/">
+  <!ENTITY ns2 "http://purl.org/research-fp#">
+  <!ENTITY dct "http://purl.org/dc/terms/">
+  <!ENTITY ns5 "http://geoknow.eu/Organization/">
+  <!ENTITY ns3 "http://rdfs.org/ns/void#">
+  <!ENTITY ns4 "http://geoknow.eu/">
+  <!ENTITY ns6 "http://geoknow.eu/fp_PressRelease/">
+  <!ENTITY ns7 "http://dbpedia.org/ontology/">
+  <!ENTITY ns8 "http://dbpedia.org/property/">
+]>
+
+<rdf:RDF xml:base="&ns4;"
+  xmlns:sysont="&sysont;"
+  xmlns:foaf="&foaf;"
+  xmlns:sioc="&sioc;"
+  xmlns:owl="&owl;"
+  xmlns:rdf="&rdf;"
+  xmlns:rdfs="&rdfs;"
+  xmlns:skos="&skos;"
+  xmlns:xsd="&xsd;"
+  xmlns:dc="&dc;"
+  xmlns:vs="&vs;"
+  xmlns:ns0="&ns0;"
+  xmlns:ns1="&sysont;Site/"
+  xmlns:ns2="&ns2;"
+  xmlns:dct="&dct;"
+  xmlns:ns5="&ns5;"
+  xmlns:ns3="&ns3;"
+  xmlns:ns4="&ns4;"
+  xmlns:ns6="&ns4;fp_PressRelease/"
+  xmlns:ns7="&ns7;"
+  xmlns:ns8="&ns8;">
+
+  <ns2:Task rdf:about="t7-4"
+    dct:identifier="T7.4">
+    <ns9:to rdf:resource="&ns4;pingback/ping/"
+      xmlns:ns9="http://purl.org/net/pingback/" />
+    <dct:description xml:lang="en">The Consortium partners will engage in technical EC-orchestration activities in two directions: (1) to facilitate the take-up of GeoKnow technology by other projects, and (2) to get input from other EU-funded projects, which are relevant for the development in GeoKnow. In section B1.2.4 of the proposal, we have assembled and presented a comprehensive list of relevant European and other projects. We are committed to technical collaboration with all European projects, which are related to the GeoKnow technology.</dct:description>
+    <ns2:next rdf:resource="t7-5" />
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:previous rdf:resource="t7-3" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">4</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Orchestration with other projects</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-3"
+    dct:identifier="T7.3">
+    <dct:description xml:lang="en">GeoKnow will actively participate in appropriate standards bodies, specifically the W3C and/or DC. Such participation is twofold; on the one hand to ensure that established and emerging standards are taken into account appropriately in the GeoKnow project and, on the other hand, to seek to influence standardisation bodies. Concrete standardisation activities pursued in the context of GeoKnow are listed in section B1.9.4. The consortium represented by its W3C members (OpenLink and Ontos) will together with other actors establish a W3C Spatial Linked Data interest group in order to found a nucleolus for the growing user community of Spatial Data Web technologies.</dct:description>
+    <ns2:next rdf:resource="t7-4" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:previous rdf:resource="t7-2" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">3</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Standardisation</rdfs:label>
+  </ns2:Task>
+
+  <ns2:Task rdf:about="t7-5"
+    dct:identifier="T7.5">
+    <dct:description xml:lang="en">All publications even partially funded by the project will prominently acknowledge the grant under which the project is funded. Every publication will be tagged with "GEOKNOW-318159". Details of all publications even partially funded by the project shall be uploaded to some specific and agreed Bibliographic social networks such as http://www.citeulike.org/, http://www.mendeley.com/ or http://www.bibsonomy.org/. Whenever such Bibliographic social networks allow for a catalogue of publications to be retrieved by tag or published as an RSS feed, the project&apos;s web site should expose such a catalogue.
+All presentation materials for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license. All open source software produced by the consortium shall be published on publicly available software repositories such as http://sourceforge.net/, http://github.com/ or http://osor.eu. All data sets for which this appropriate shall be published on the project&apos;s web site under a Creative Commons licence (http://creativecommons.org/) or another appropriate license.</dct:description>
+    <ns2:partner rdf:resource="ATH" />
+    <ns2:partner rdf:resource="Athena" />
+    <ns2:partner rdf:resource="InfAI" />
+    <ns2:partner rdf:resource="Ontos" />
+    <ns2:partner rdf:resource="OpenLink" />
+    <ns2:partner rdf:resource="Openlink" />
+    <ns2:partner rdf:resource="Unister" />
+    <ns2:partner rdf:resource="brox" />
+    <ns2:previous rdf:resource="t7-4" />
+    <ns2:taskNumber rdf:datatype="&xsd;integer">5</ns2:taskNumber>
+    <ns2:workpackage rdf:resource="wp7" />
+    <rdfs:label xml:lang="en">Publishing directives</rdfs:label>
+  </ns2:Task>
+
+</rdf:RDF>

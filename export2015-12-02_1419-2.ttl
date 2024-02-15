@@ -1,0 +1,51 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:Project ns1:content """GeoKnow is a 3-year project funded by the European Commission within the FP7 Information and Communication Technologies Work Programme (Grant Agreement No. 318159). GeoKnow addresses the problem of linking geospatial data from heterogeneous information systems and uses the web as a platform to exploit this data. 
+
+<div class=\"nav-sidelinks\"> <ul><li>WorkPackages</li><li> {{query where=\"?resourceUri a fp:WorkPackage. ?resourceUri fp:workpackageNumber ?workPackageNumber.\" template=\"lmenu\" orderby=\"ASC(?workpackageNumber)\"}}</li></ul> </div> 
+
+* We address a bold challenge in the area of intelligent information management: the exploitation of the Web as a platform for geospatial knowledge integration as well as for exploration of geographic information.
+* GeoKnow aims to contribute to the following areas concerned with geospatial data:
+
+ * Creation and maintenance of qualitative geospatial information from existing unstructured data such as OpenStreetMap, Geonames and Wikipedia, anticipating geospatial search and acquisition and aggregation of information resources.
+ * Reuse and exploitation of unforeseen discoveries found in geospatial data. GeoKnow will provide methods to acquire, analyse and categorise data that is rapidly evolving, immense, incomplete and potentially conflicting with:
+ * Tools and methodologies for mapping and exposing existing structured geospatial information on the web of data, considering comprehensive and qualitative ontologies and efficient spatial indexing.
+ * Automatic fusing and aggregation of geospatial data by developing algorithms and services based on machine learning, pattern recognition and heuristics.
+ * Tools for exploring, searching, authoring and curating the Spatial Data Web by using Web 2.0 and machine learning techniques based on scalable spatial knowledge stores. All these contributions are integrated in the open source GeoKnow Generator framework developed by the consortium. 
+
+#### A high-level architectural overview
+
+<a href=\"http://geoknow.eu/site/images/geoknow-architecture.png\" target=\"blank\"><img src=\"http://www.geoknow.eu/site/images/geoknow-architecture.png\"  width=\"550px\"/></a>
+
+The GeoKnow Generator will provide a comprehensive toolset of easy to use applications covering a range of possible usage scenarios (e.g. mobility/traffic, energy/water, culture, etc) . The GeoKnow project contemplates two application scenarios: a travel e-commerce data management tool and a spatial-semantic collaboration and data integration tool along value-chains in supplier and customer networks. Learn more about GeoKnow, check the detailed work packages of this project: 
+
+{{query where=\"?resourceUri a fp:WorkPackage. ?resourceUri fp:workpackageNumber ?workPackageNumber.\" template=\"identifiertable\" orderby=\"ASC(?workpackageNumber)\"}} 
+* Duration: 12/2012- 11/2015 
+* Total Budget: 4.48 M€ 
+* Total Funding: 3.24 M€
+* Total Resources: 560 PM"""^^sysont:Markdown ;
+            ns1:menuLabel "Project" ;
+            a foaf:Document ;
+            rdfs:label "Project" .

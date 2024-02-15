@@ -1,0 +1,37 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:t1-4 dct:description """During this task individual components developed in WP2-4 will be integrated into a ready to use GKS Generator and associated APIs in order to enable communities of practice to create domain specific GKSes with a minimum of effort. For example, chosing between map providers (e.g. OpenStreetMap, Google Maps) will require no coding, and there will be a widget library, based on the use-cases, with some widgets (e.g. for place searches, ratings, images and facts) being usable across multiple domains. A plug-in system will ensure that new styles and behaviour can be added in case none of the provided components turn out to be applicable.
+Thus, this task consists of the following subtasks:
+Integration of User Interface Components. The goal of this sub-task is to provide rich GUIs for social-aware GKS applications. 
+Integration of GeoKnow Generator and API. The objective of this sub-task is to integrate the GeoKnow components developed in WP2-4 and the Web 2.0 toolkit into a ready to use GKS Generator with underlying service APIs. Within this task we will perform software integration activities together with WP2-4. 
+Testing, documentation & tutorials. This sub-task will take the end-user and technical feedbacks resulting from WP5-6 into account to improve the final GeoKnow Generator and provide documentation and tutorials. The documentation of the evaluation should provide both quantitative and qualitative results, through real-life trials of the proposed work. A number of alpha and beta testing results will be documented by this task, which will be conducted after the delivery of each module and provide quantitative results."""@en ;
+         dct:identifier "T1.4" ;
+         ns2:leadPartner ns4:Ontos ;
+         ns2:partner ns4:ATH, ns4:Athena, ns4:InfAI, ns4:Ontos, ns4:OpenLink, ns4:Openlink, ns4:Unister, ns4:brox ;
+         ns2:previous ns4:t1-3 ;
+         ns2:taskNumber "4"^^xsd:integer ;
+         ns2:workpackage ns4:wp1 ;
+         a ns2:Task ;
+         rdfs:label "Component integration and GeoKnow Generator"@en .

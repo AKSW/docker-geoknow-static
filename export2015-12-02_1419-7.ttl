@@ -1,0 +1,52 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://geoknow.eu/> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix ns0: <http://purl.org/net/vocab/2004/03/label#> .
+@prefix ns1: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix ns2: <http://purl.org/research-fp#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://geoknow.eu/Organization/> .
+@prefix ns3: <http://rdfs.org/ns/void#> .
+@prefix ns4: <http://geoknow.eu/> .
+@prefix ns6: <http://geoknow.eu/fp_PressRelease/> .
+@prefix ns7: <http://dbpedia.org/ontology/> .
+@prefix ns8: <http://dbpedia.org/property/> .
+
+ns4:Contact ns1:content """Scientific Project Leader
+----------------------------------
+Dr. Jens Lehmann</br>
+Phone: +49 (341) 97-32273</br>
+Fax: +49 (341) 97.32 329</br>
+email: lehmann@informatik.uni-leipzig.de</br>
+http://jens-lehmann.org/</br>
+
+Project Manager
+---------------
+Nadine Jännicke</br>
+Phone: +49-341-9732367</br>
+Fax: +49-341-97-32329</br>
+email: jaenicke@uni-leipzig.de</br>
+
+Address
+-------
+Institute for Applied Informatics (InfAI) e.V.</br>
+Neumarkt 20</br>
+04109 Leipzig</br>
+Germany
+
+Phone: +49 341 3928738 0</br>
+Fax: +49 341 3928738 9</br>
+Email: info@infai.org</br>
+PR: pr@geoknow.eu"""^^sysont:Markdown ;
+            a foaf:Document ;
+            rdfs:label "Contact" .
